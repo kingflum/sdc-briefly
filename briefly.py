@@ -712,13 +712,22 @@ def _story_rows(con, since=None, until=None, min_score=0):
 TAG = "utm_source=screwdowncrown.com&utm_medium=referral&utm_campaign=sdc-briefly"
 
 
+# Other sites' tracking tags, removed before SDC's tag goes on. Parameters that make the link work
+# (article ids, language and so on) are kept exactly as they were.
+TRACKING = re.compile(r"^(utm_\w+|fbclid|gclid|gbraid|wbraid|dclid|msclkid|yclid|twclid|igshid|mc_cid|mc_eid|"
+                      r"_hsenc|_hsmi|mkt_tok|ocid|cmpid|ref|ref_src|ref_url|referrer|s_cid|smid|smtyp|"
+                      r"sr_share|at_medium|at_campaign|at_custom\d*|guccounter|guce_referrer\w*|li_fat_id|"
+                      r"spm|xtor|ito|icid|_ga|_gl|trk|trkcampaign|soc_src|soc_trk)$", re.I)
+
+
 def tagged(u):
-    """The outbound link with SDC's tag added, so publishers see where the reader came from.
-    Links that already carry tracking tags of their own are left alone."""
-    if "utm_" in u:
-        return u
+    """The outbound link with other sites' tracking tags removed and SDC's tag added, so publishers
+    see that the reader came from screwdowncrown.com."""
     base, _, frag = u.partition("#")
-    return base + ("&" if "?" in base else "?") + TAG + ("#" + frag if frag else "")
+    path, _, query = base.partition("?")
+    keep = [p for p in query.split("&")
+            if p and not TRACKING.match(urllib.parse.unquote_plus(p.split("=", 1)[0]))]
+    return path + "?" + "&".join(keep + [TAG]) + ("#" + frag if frag else "")
 
 
 def _item_html(i):
