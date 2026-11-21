@@ -1,6 +1,6 @@
 # Source health
 
-Updated 21 Nov 2026 18:00 UTC. Counts are stories found in the last 30 days.
+Updated 21 Nov 2026 18:04 UTC. Counts are stories found in the last 30 days.
 
 ## Sources on the list
 
@@ -76,7 +76,7 @@ Updated 21 Nov 2026 18:00 UTC. Counts are stories found in the last 30 days.
 | Watches by SJX | watch | 31 | 6 | 2026-11-20 | ok |
 | Worn & Wound | watch | 34 | 0 | 2026-11-21 | ok |
 | Two Broke Watch Snobs | watch | 38 | 0 | 2026-11-21 | ok |
-| aBlogtoWatch | watch | 40 | 3 | 2026-11-21 | ok |
+| aBlogtoWatch | watch | 41 | 3 | 2026-11-21 | ok |
 | Oracle Time | watch | 43 | 1 | 2026-11-21 | ok |
 | Hodinkee | watch | 44 | 4 | 2026-11-20 | ok |
 | Watch Collecting Lifestyle | watch | 44 | 5 | 2026-11-21 | ok |
