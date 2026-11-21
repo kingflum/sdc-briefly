@@ -1,6 +1,6 @@
 # Source health
 
-Updated 21 Nov 2026 17:08 UTC. Counts are stories found in the last 30 days.
+Updated 21 Nov 2026 17:51 UTC. Counts are stories found in the last 30 days.
 
 ## Sources on the list
 
@@ -90,7 +90,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 
 | Website | Outlet name | Stories (30 days) | Scored 6+ | Average score | Example headline |
 |---|---|---|---|---|---|
-| note.com | note | 7 | 2 | 3.1 | Why Omega Could Not Become Rolex: Watch Value is Determined by Strategy |
+| note.com | note | 8 | 3 | 3.6 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
 | thehourmarkers.com | thehourmarkers | 4 | 2 | 5.2 | Is Breguet About To Make A Comeback? |
 | marketscreener.com | MarketScreener | 3 | 2 | 6.0 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
 | luxurytribune.com | luxurytribune | 2 | 2 | 8.5 | Jacqueline Dimier has passed away: watchmaking loses a visionary designer, who made Audema |
