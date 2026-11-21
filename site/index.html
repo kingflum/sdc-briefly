@@ -49,7 +49,7 @@ footer a.sdc{color:var(--o);font-weight:600}
 <body>
 <header><div class="wrap">
   <div class="top">
-    <h1>SDC Briefly<small>Curated watch industry news, collected every day and refreshed once every 12 hours · last updated 21 Nov 2026, 17:59 UTC</small></h1>
+    <h1>SDC Briefly<small>Curated watch industry news, collected every day and refreshed once every 12 hours · last updated 21 Nov 2026, 18:00 UTC</small></h1>
     <a class="sub" href="https://www.screwdowncrown.com/subscribe" target="_blank" rel="noopener">Subscribe to SDC</a>
   </div>
   <div class="bar">
@@ -297,7 +297,7 @@ let min=5,onlyX=false;
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const TAG='utm_source=screwdowncrown.com&utm_medium=referral&utm_campaign=sdc-briefly';
 const TRACKING=/^(utm_\w+|fbclid|gclid|gbraid|wbraid|dclid|msclkid|yclid|twclid|igshid|mc_cid|mc_eid|_hsenc|_hsmi|mkt_tok|ocid|cmpid|ref|ref_src|ref_url|referrer|s_cid|smid|smtyp|sr_share|at_medium|at_campaign|at_custom\d*|guccounter|guce_referrer\w*|li_fat_id|spm|xtor|ito|icid|_ga|_gl|trk|trkcampaign|soc_src|soc_trk)$/i;
-const tag=u=>{const s=String(u),h=s.indexOf('#'),base=h<0?s:s.slice(0,h),frag=h<0?'':s.slice(h),q=base.indexOf('?'),path=q<0?base:base.slice(0,q),query=q<0?'':base.slice(q+1);const keep=query.split('&').filter(p=>{if(!p)return false;let k=p.split('=')[0];try{k=decodeURIComponent(k.replace(/\+/g,' '))}catch(e){}return !TRACKING.test(k)});return path+'?'+keep.concat(TAG).join('&')+frag};
+const tag=u=>{if(/^https?:\/\/([^\/]*\.)?screwdowncrown\.com(\/|$)/i.test(String(u)))return u;const s=String(u),h=s.indexOf('#'),base=h<0?s:s.slice(0,h),frag=h<0?'':s.slice(h),q=base.indexOf('?'),path=q<0?base:base.slice(0,q),query=q<0?'':base.slice(q+1);const keep=query.split('&').filter(p=>{if(!p)return false;let k=p.split('=')[0];try{k=decodeURIComponent(k.replace(/\+/g,' '))}catch(e){}return !TRACKING.test(k)});return path+'?'+keep.concat(TAG).join('&')+frag};
 const dayName=d=>{const t=new Date(d+'T12:00:00Z'),now=new Date(),y=new Date(now-864e5);
   const f=x=>x.toISOString().slice(0,10);if(d===f(now))return'Today';if(d===f(y))return'Yesterday';
   return t.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'});};

@@ -722,7 +722,9 @@ TRACKING = re.compile(r"^(utm_\w+|fbclid|gclid|gbraid|wbraid|dclid|msclkid|yclid
 
 def tagged(u):
     """The outbound link with other sites' tracking tags removed and SDC's tag added, so publishers
-    see that the reader came from screwdowncrown.com."""
+    see that the reader came from screwdowncrown.com. SDC's own posts keep clean links."""
+    if urllib.parse.urlsplit(u).netloc.lower().endswith("screwdowncrown.com"):
+        return u
     base, _, frag = u.partition("#")
     path, _, query = base.partition("?")
     keep = [p for p in query.split("&")
