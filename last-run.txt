@@ -1,4 +1,4 @@
-2026-11-21 17:01  3 new items from 81 of 83 sources. AI ranked 3 items and merged 0 duplicates.
+2026-11-21 17:08  3 new items from 81 of 83 sources. AI ranked 3 items and merged 0 duplicates.
 FAILED   Escapement Magazine  (https://www.escapementmagazine.com)
 FAILED   FHH  (https://www.hautehorlogerie.org/en/watches-and-culture/library)
 ok    0  24 heures  (via news search)
@@ -65,7 +65,6 @@ ok    0  The Fourth Wheel
 ok    0  The Time Bum
 ok    0  Time and Watches
 ok    0  Time+Tide
-ok    0  Two Broke Watch Snobs
 ok    0  Unpolished
 ok    0  WWD
 ok    0  Wall Street Journal  (via news search)
@@ -81,4 +80,5 @@ ok    0  World Trademark Review
 ok    0  Worn & Wound
 ok    0  WristReview
 ok    0  aBlogtoWatch
-ok    3  Search: montres suisses
+ok    1  Two Broke Watch Snobs
+ok    2  Search: montres suisses
