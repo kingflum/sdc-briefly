@@ -1,6 +1,6 @@
 # Source health
 
-Updated 21 Nov 2026 17:51 UTC. Counts are stories found in the last 30 days.
+Updated 21 Nov 2026 18:00 UTC. Counts are stories found in the last 30 days.
 
 ## Sources on the list
 

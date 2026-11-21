@@ -1,4 +1,4 @@
-2026-11-21 17:51  3 new items from 81 of 83 sources. AI ranked 3 items and merged 2 duplicates.
+2026-11-21 18:00  1 new items from 81 of 83 sources. AI ranked 1 items and merged 0 duplicates.
 FAILED   Escapement Magazine  (https://www.escapementmagazine.com)
 FAILED   FHH  (https://www.hautehorlogerie.org/en/watches-and-culture/library)
 ok    0  24 heures  (via news search)
@@ -38,6 +38,7 @@ ok    0  Revolution
 ok    0  Robb Report
 ok    0  Scottish Watches
 ok    0  ScrewDownCrown
+ok    0  Search: Audemars Piguet
 ok    0  Search: Bucherer
 ok    0  Search: Patek Philippe
 ok    0  Search: Richemont watches
@@ -80,5 +81,4 @@ ok    0  World Trademark Review
 ok    0  Worn & Wound
 ok    0  WristReview
 ok    0  aBlogtoWatch
-ok    1  Search: Audemars Piguet
-ok    2  Search: Rolex
+ok    1  Search: Rolex
