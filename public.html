@@ -70,6 +70,8 @@ __LIST__
 const DATA=__DATA__;
 let min=5,onlyX=false;
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const TAG='utm_source=screwdowncrown.com&utm_medium=referral&utm_campaign=sdc-briefly';
+const tag=u=>{if(/utm_/.test(u))return u;const [b,...f]=String(u).split('#');return b+(b.includes('?')?'&':'?')+TAG+(f.length?'#'+f.join('#'):'')};
 const dayName=d=>{const t=new Date(d+'T12:00:00Z'),now=new Date(),y=new Date(now-864e5);
   const f=x=>x.toISOString().slice(0,10);if(d===f(now))return'Today';if(d===f(y))return'Yesterday';
   return t.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'});};
@@ -79,7 +81,7 @@ function draw(){
   document.getElementById('count').textContent=l.length+' stories, last 3 weeks';
   const days={};l.forEach(i=>(days[i.d]=days[i.d]||[]).push(i));
   const out=Object.keys(days).sort().reverse().map(d=>`<h2>${dayName(d)}</h2>`+days[d].sort((a,b)=>b.n-a.n).map(i=>
-    `<div class="it"><div class="sc ${i.n>=7?'hi':''}" title="Newsworthiness score out of 10">${i.n}</div><div><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a>
+    `<div class="it"><div class="sc ${i.n>=7?'hi':''}" title="Newsworthiness score out of 10">${i.n}</div><div><a href="${esc(tag(i.u))}" target="_blank" rel="noopener">${esc(i.t)}</a>
     <div class="meta">${esc(i.s)}${i.x?' · translated headline':''}${i.a.length?' · also: '+esc(i.a.join(', ')):''}</div></div></div>`).join('')).join('');
   document.getElementById('list').innerHTML=out||'<div class="empty">Nothing matches. Try “Everything”.</div>';
 }

@@ -709,12 +709,24 @@ def _story_rows(con, since=None, until=None, min_score=0):
              "a": sorted(also.get(r["id"], set()) - {r["source"]})[:4]} for r in rows]
 
 
+TAG = "utm_source=screwdowncrown.com&utm_medium=referral&utm_campaign=sdc-briefly"
+
+
+def tagged(u):
+    """The outbound link with SDC's tag added, so publishers see where the reader came from.
+    Links that already carry tracking tags of their own are left alone."""
+    if "utm_" in u:
+        return u
+    base, _, frag = u.partition("#")
+    return base + ("&" if "?" in base else "?") + TAG + ("#" + frag if frag else "")
+
+
 def _item_html(i):
     meta = _esc(i["s"]) + (" · translated headline" if i["x"] else "") + \
         (" · also: " + _esc(", ".join(i["a"])) if i["a"] else "")
     return ('<div class="it"><div class="sc %s" title="Newsworthiness score out of 10">%d</div><div>'
             '<a href="%s" target="_blank" rel="noopener">%s</a><div class="meta">%s</div></div></div>'
-            % ("hi" if i["n"] >= 7 else "", i["n"], _esc(i["u"]), _esc(i["t"]), meta))
+            % ("hi" if i["n"] >= 7 else "", i["n"], _esc(tagged(i["u"])), _esc(i["t"]), meta))
 
 
 def _day_label(d):
