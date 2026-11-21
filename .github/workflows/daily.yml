@@ -1,0 +1,56 @@
+name: Daily fetch and publish
+
+on:
+  schedule:
+    - cron: "15 3 * * *"     # 03:15 UTC
+    - cron: "15 15 * * *"    # 15:15 UTC
+  workflow_dispatch:          # the "Run workflow" button, to fetch on demand
+  push:
+    branches: [main]
+    paths: ["sources.txt", "public.html", "day.html", "briefly.py", ".github/workflows/**"]   # editing the source list republishes
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: briefly
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch every source, rank, publish the page
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TZ: UTC
+        run: python3 briefly.py daily
+      - name: Save the database and page back to the repository
+        run: |
+          git config user.name "SDC Briefly"
+          git config user.email "briefly@users.noreply.github.com"
+          git add -A
+          git commit -m "Daily fetch $(date -u +%Y-%m-%d)" || echo "nothing new"
+          git pull --rebase -X theirs origin main || true
+          git push origin HEAD:main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        continue-on-error: true
+      - name: Wait before trying the deployment again
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 90
+      - uses: actions/deploy-pages@v4
+        if: steps.deploy.outcome == 'failure'

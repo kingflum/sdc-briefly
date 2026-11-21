@@ -1,0 +1,5 @@
+briefly.db-journal
+__pycache__/
+fetching.lock
+config.txt
+*.command

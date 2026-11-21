@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch Industry News Today · SDC Briefly</title>
+<meta name="description" content="Today's watch industry news in one place: business, auctions, legal cases and Swiss watchmaking news translated into English, ranked by newsworthiness and refreshed every 12 hours by ScrewDownCrown.">
+<link rel="canonical" href="https://briefly.screwdowncrown.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SDC Briefly">
+<meta property="og:title" content="Watch Industry News Today · SDC Briefly">
+<meta property="og:description" content="The day's most newsworthy watch industry stories, with Swiss press translated into English. Refreshed every 12 hours.">
+<meta property="og:url" content="https://briefly.screwdowncrown.com/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">__JSONLD__</script>
+__ANALYTICS__
+<style>
+:root{--o:#F37021;--b:#FFF2D1;--ink:#2a2118;--soft:#7a6a50;--line:#ead9ab}
+*{box-sizing:border-box}
+body{margin:0;background:var(--b);color:var(--ink);font:16px/1.45 Georgia,"Times New Roman",serif}
+header{background:var(--b);border-bottom:3px solid var(--o);position:sticky;top:0;z-index:5}
+@media (max-width:600px){header{position:static}.sub{margin-left:0}}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px}
+.top{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;padding:16px 0 6px}
+h1{margin:0;font-size:28px;color:var(--o);letter-spacing:-.5px}
+h1 small{display:block;font:13px system-ui,sans-serif;color:var(--soft);letter-spacing:0;margin-top:2px}
+.sub{margin-left:auto;font:600 14px system-ui,sans-serif;background:var(--o);color:#fff;text-decoration:none;padding:8px 14px;border-radius:4px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:8px 0 12px;font:14px system-ui,sans-serif}
+.bar button{font:14px system-ui,sans-serif;padding:6px 12px;border:1px solid var(--ink);background:#fff;border-radius:16px;cursor:pointer}
+.bar button.on{background:var(--ink);color:#fff}
+.bar input{font:14px system-ui,sans-serif;padding:6px 10px;border:1px solid var(--ink);border-radius:16px;flex:1;min-width:140px}
+.count{color:var(--soft);font-size:13px}
+.lead{font:15px/1.5 Georgia,serif;margin:8px 0 0}
+.note{font:13px/1.4 system-ui,sans-serif;color:var(--soft);margin:-4px 0 12px;display:flex;gap:8px;align-items:center}
+.sc.dot{width:20px;height:20px;font-size:10px;line-height:20px;margin:0}
+h2{font:600 14px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.6px;color:var(--soft);margin:28px 0 4px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.it{padding:11px 0;border-bottom:1px solid var(--line);display:flex;gap:12px}
+.sc{flex:none;width:26px;height:26px;border-radius:50%;font:bold 12px/26px system-ui,sans-serif;text-align:center;color:#fff;background:#c9b88f;margin-top:2px}
+.sc.hi{background:var(--o)}
+.it a{color:var(--ink);font-weight:bold;text-decoration:none;font-size:17px}
+.it a:hover{text-decoration:underline;text-decoration-color:var(--o)}
+.meta{font:13px system-ui,sans-serif;color:var(--soft);margin-top:3px}
+footer{font:13px system-ui,sans-serif;color:var(--soft);padding:36px 0 60px;line-height:1.6}
+footer a{color:var(--ink)}
+footer a.sdc{color:var(--o);font-weight:600}
+.empty{padding:40px 0;color:var(--soft);font-style:italic}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="top">
+    <h1>SDC Briefly<small>Curated watch industry news, collected every day and refreshed once every 12 hours · last updated __UPDATED__</small></h1>
+    <a class="sub" href="https://www.screwdowncrown.com/subscribe" target="_blank" rel="noopener">Subscribe to SDC</a>
+  </div>
+  <div class="bar">
+    <button data-m="7">Best</button><button data-m="5" class="on">Notable</button><button data-m="0">Everything</button>
+    <input id="q" type="search" placeholder="Search headlines, brands, sources…">
+    <span class="count" id="count"></span>
+  </div>
+  <p class="note"><span class="sc hi dot"><i>x</i></span>The number in the circle is a newsworthiness score out of 10. Business, legal and industry news scores higher; watch reviews and new releases score lower.</p>
+</div></header>
+<main class="wrap" id="list">
+__LIST__
+</main>
+<footer class="wrap">
+  <a href="/archive.html">Archive, day by day</a><br><br>
+  Every headline links to the publication that wrote it. A complimentary service provided by <a class="sdc" href="https://www.screwdowncrown.com" target="_blank" rel="noopener">ScrewDownCrown</a>.
+</footer>
+<script>
+const DATA=__DATA__;
+let min=5,onlyX=false;
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const dayName=d=>{const t=new Date(d+'T12:00:00Z'),now=new Date(),y=new Date(now-864e5);
+  const f=x=>x.toISOString().slice(0,10);if(d===f(now))return'Today';if(d===f(y))return'Yesterday';
+  return t.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'});};
+function draw(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  const l=DATA.filter(i=>i.n>=min&&(!onlyX||i.x)&&(!q||(i.t+' '+i.s+' '+i.g+' '+i.a.join(' ')).toLowerCase().includes(q)));
+  document.getElementById('count').textContent=l.length+' stories, last 3 weeks';
+  const days={};l.forEach(i=>(days[i.d]=days[i.d]||[]).push(i));
+  const out=Object.keys(days).sort().reverse().map(d=>`<h2>${dayName(d)}</h2>`+days[d].sort((a,b)=>b.n-a.n).map(i=>
+    `<div class="it"><div class="sc ${i.n>=7?'hi':''}" title="Newsworthiness score out of 10">${i.n}</div><div><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a>
+    <div class="meta">${esc(i.s)}${i.x?' · translated headline':''}${i.a.length?' · also: '+esc(i.a.join(', ')):''}</div></div></div>`).join('')).join('');
+  document.getElementById('list').innerHTML=out||'<div class="empty">Nothing matches. Try “Everything”.</div>';
+}
+document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{min=+b.dataset.m;onlyX=!!b.dataset.x;
+  document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));draw();});
+document.getElementById('q').oninput=draw;
+draw();
+</script>
+</body>
+</html>

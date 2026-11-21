@@ -1,0 +1,123 @@
+# SDC Briefly sources. One per line:  Name | address | kind
+#
+# kind = watch   -> a watch site; every article is kept
+# kind = general -> a broader site; only articles that mention watches are kept
+# kind = search  -> the address is a search phrase, not a website; finds news on any site
+#
+# The address can be the site's home page. Briefly finds the feed itself.
+# Lines starting with # are ignored.
+
+# --- Mainstream watch press ---
+Monochrome | https://monochrome-watches.com/feed/ | watch
+Fratello | https://www.fratellowatches.com/feed/ | watch
+WatchPro | https://www.watchpro.com/feed/ | watch
+WatchPro USA | https://usa.watchpro.com/feed/ | watch
+Hodinkee | https://www.hodinkee.com/articles/rss.xml | watch
+Two Broke Watch Snobs | https://twobrokewatchsnobs.com/feed/ | watch
+aBlogtoWatch | https://www.ablogtowatch.com/feed/ | watch
+Time+Tide | https://timeandtidewatches.com/feed/ | watch
+Watches by SJX | https://watchesbysjx.com/feed | watch
+Worn & Wound | https://wornandwound.com/feed/ | watch
+Oracle Time | https://oracleoftime.com/feed/ | watch
+Deployant | https://deployant.com/feed/ | watch
+Watch Collecting Lifestyle | https://www.watchcollectinglifestyle.com/home?format=rss | watch
+Watchonista | https://www.watchonista.com | watch
+Revolution | https://revolutionwatch.com/feed/ | watch
+Scottish Watches | https://www.scottishwatches.co.uk/feed/ | watch
+WatchTime | https://www.watchtime.com/feed/ | watch
+A Timely Perspective | https://atimelyperspective.com/feed/ | watch
+Quill & Pad | https://quillandpad.com/feed/ | watch
+Swisswatches Magazine | https://swisswatches-magazine.com/feed/ | watch
+Escapement Magazine | https://www.escapementmagazine.com | watch
+
+# --- Watch trade, collectors, newsletters ---
+Europa Star | https://www.europastar.com | watch
+Unpolished | https://www.unpolishedwatches.com/feed | watch
+A Collected Man | https://www.acollectedman.com/blogs/journal.atom | watch
+Hairspring Finds | https://hairspring.com/blogs/finds.atom | watch
+Hairspring Journal | https://hairspring.com/blogs/journal.atom | watch
+Professional Watches | https://professionalwatches.com/feed/ | watch
+FHH | https://www.hautehorlogerie.org/en/watches-and-culture/library | watch
+Miss Tweed | https://www.misstweed.com | general
+JCK | https://www.jckonline.com/feed/ | general
+
+# --- Business and luxury press (filtered to watch stories) ---
+Business of Fashion | https://www.businessoffashion.com | general
+Robb Report | https://robbreport.com/style/watch-collector/feed/ | watch
+Luxury Daily | https://www.luxurydaily.com/feed/ | general
+Jing Daily | https://jingdaily.com/feed | general
+WWD | https://wwd.com/feed/ | general
+Wallpaper | https://www.wallpaper.com/feeds.xml | general
+GQ watches | https://www.gq.com/feed/rss | general
+
+# --- Law (filtered to watch stories) ---
+The Fashion Law | https://www.thefashionlaw.com/ | general
+IPKat | https://ipkitten.blogspot.com/feeds/posts/default | general
+World Trademark Review | https://www.worldtrademarkreview.com | general
+
+# --- Swiss press (filtered to watch stories; French and German) ---
+Swissinfo (French) | https://www.swissinfo.ch/fre | general
+Swissinfo (English) | https://www.swissinfo.ch/eng | general
+Le Temps | https://www.letemps.ch | general
+Arcinfo | https://www.arcinfo.ch | general
+RTS Info | https://www.rts.ch/info | general
+24 heures | https://www.24heures.ch | general
+Bilan | https://www.bilan.ch | general
+Agefi | https://agefi.com | general
+FH (Swiss watch federation) | https://www.fhs.swiss/fre/actualites | watch
+
+# --- Searches: these catch watch stories on sites nobody would think to monitor ---
+Search: horlogerie | horlogerie | search
+Search: horloger suisse | horloger suisse | search
+Search: montres suisses | montres suisses | search
+Search: Schweizer Uhren | Schweizer Uhrenhersteller | search
+Search: Uhrenindustrie | Uhrenindustrie | search
+Search: Swiss watch exports | Swiss watch exports | search
+Search: watchmaker lawsuit | watchmaker lawsuit | search
+Search: watch brand court | watch brand court ruling | search
+Search: watch trademark | watch trademark dispute | search
+Search: counterfeit watches | counterfeit watches seized | search
+Search: watch theft | luxury watch robbery | search
+Search: Richemont watches | Richemont watches | search
+Search: Swatch Group | "Swatch Group" | search
+Search: Rolex | Rolex watchmaker | search
+Search: Bucherer | Bucherer | search
+Search: Patek Philippe | "Patek Philippe" | search
+Search: Audemars Piguet | "Audemars Piguet" | search
+Search: Watches of Switzerland | "Watches of Switzerland" | search
+Search: independent watchmaker | independent watchmaker | search
+Search: watch auction record | watch auction record | search
+
+# --- More watch, culture and business sites ---
+Time and Watches | https://www.timeandwatches.com/feeds/posts/default | watch
+WristReview | https://wristreview.com/feed/ | watch
+Independ Horology | https://independhorology.com/feed/ | watch
+The Time Bum | https://www.thetimebum.com/feed | watch
+Horopedia | https://horopedia.org/feed/ | watch
+
+# --- Watch Substacks and newsletters (Substack blocks cloud servers, so these are skipped here) ---
+The Fourth Wheel | https://www.thefourthwheel.co.uk/feed | watch
+Split Seconds (Jack Forster) | https://jackforster.substack.com/feed | watch
+(un)Complicated | https://ashtontracy.substack.com/feed | watch
+Free Sprung | https://freesprung.substack.com/feed | watch
+Kilian Eisenegger | https://kilianeisenegger.substack.com/feed | watch
+Performance Watch Review | https://chmandaue.substack.com/feed | watch
+Pointless Complication | https://velociphile.substack.com/feed | watch
+Remontoir | https://remontoirblog.substack.com/feed | watch
+Scaramanga's Den | https://scaramanga11.substack.com/feed | watch
+Sfwatchlover | https://sfwatchlover.substack.com/feed | watch
+SWIMPRUF | https://swimpruf.substack.com/feed | watch
+The Grumpy Watch Collector | https://watchclog.substack.com/feed | watch
+The Sunday Reserve | https://thesundayreserve.substack.com/feed | watch
+The Watchmaker's Daughter | https://thewatchmakersdaughter.substack.com/feed | watch
+Watch Lover | https://watchlover.substack.com/feed | watch
+
+# --- More sites ---
+Coronet | https://www.coronet.org/new-1minute-reads?format=rss | watch
+ScrewDownCrown | https://www.screwdowncrown.com/feed | watch
+Wired | https://www.wired.com/feed/rss | general
+Futurism | https://futurism.com/feed | general
+New York Times (Business) | https://rss.nytimes.com/services/xml/rss/nyt/Business.xml | general
+New York Times (Style) | https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml | general
+New Yorker | https://www.newyorker.com/feed/everything | general
+Wall Street Journal | https://www.wsj.com | general
