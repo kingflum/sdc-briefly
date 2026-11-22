@@ -37,7 +37,7 @@ A Collected Man | https://www.acollectedman.com/blogs/journal.atom | watch
 Hairspring Finds | https://hairspring.com/blogs/finds.atom | watch
 Hairspring Journal | https://hairspring.com/blogs/journal.atom | watch
 Professional Watches | https://professionalwatches.com/feed/ | watch
-FHH | https://www.hautehorlogerie.org/en/watches-and-culture/library | watch
+# retired 2026-11-22: failed and no stories in 30 days | FHH | https://www.hautehorlogerie.org/en/watches-and-culture/library | watch
 Miss Tweed | https://www.misstweed.com | general
 JCK | https://www.jckonline.com/feed/ | general
 
@@ -121,3 +121,6 @@ New York Times (Business) | https://rss.nytimes.com/services/xml/rss/nyt/Busines
 New York Times (Style) | https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml | general
 New Yorker | https://www.newyorker.com/feed/everything | general
 Wall Street Journal | https://www.wsj.com | general
+
+# --- Added 2026-11-22 ---
+Luxury Tribune | https://www.luxurytribune.com | general
