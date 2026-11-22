@@ -1,4 +1,4 @@
-2026-11-21 18:04  1 new items from 81 of 83 sources. AI ranked 1 items and merged 0 duplicates.
+2026-11-22 03:58  5 new items from 81 of 83 sources. AI ranked 5 items and merged 0 duplicates.
 FAILED   Escapement Magazine  (https://www.escapementmagazine.com)
 FAILED   FHH  (https://www.hautehorlogerie.org/en/watches-and-culture/library)
 ok    0  24 heures  (via news search)
@@ -33,7 +33,6 @@ ok    0  New Yorker
 ok    0  Oracle Time
 ok    0  Professional Watches
 ok    0  Quill & Pad
-ok    0  RTS Info  (read from its page)
 ok    0  Revolution
 ok    0  Robb Report
 ok    0  Scottish Watches
@@ -49,18 +48,14 @@ ok    0  Search: Swiss watch exports
 ok    0  Search: Uhrenindustrie
 ok    0  Search: Watches of Switzerland
 ok    0  Search: counterfeit watches
-ok    0  Search: horloger suisse
 ok    0  Search: horlogerie
-ok    0  Search: independent watchmaker
 ok    0  Search: montres suisses
 ok    0  Search: watch auction record
 ok    0  Search: watch brand court
-ok    0  Search: watch theft
 ok    0  Search: watch trademark
 ok    0  Search: watchmaker lawsuit
 ok    0  Swissinfo (English)  (read from its page)
 ok    0  Swissinfo (French)  (read from its page)
-ok    0  Swisswatches Magazine
 ok    0  The Fashion Law  (read from its page)
 ok    0  The Fourth Wheel
 ok    0  The Time Bum
@@ -81,4 +76,9 @@ ok    0  Wired
 ok    0  World Trademark Review
 ok    0  Worn & Wound
 ok    0  WristReview
-ok    1  aBlogtoWatch
+ok    0  aBlogtoWatch
+ok    1  RTS Info  (read from its page)
+ok    1  Search: horloger suisse
+ok    1  Search: independent watchmaker
+ok    1  Search: watch theft
+ok    1  Swisswatches Magazine

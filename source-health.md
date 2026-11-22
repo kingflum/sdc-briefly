@@ -1,6 +1,6 @@
 # Source health
 
-Updated 21 Nov 2026 18:04 UTC. Counts are stories found in the last 30 days.
+Updated 22 Nov 2026 03:58 UTC. Counts are stories found in the last 30 days.
 
 ## Sources on the list
 
@@ -49,8 +49,8 @@ Updated 21 Nov 2026 18:04 UTC. Counts are stories found in the last 30 days.
 | Luxury Daily | general | 3 | 0 | 2026-11-16 | ok |
 | Swissinfo (French) | general | 3 | 0 | 2026-11-14 | ok |
 | JCK | general | 3 | 1 | 2026-11-12 | ok |
-| RTS Info | general | 3 | 2 | 2026-11-18 | ok |
 | WristReview | watch | 4 | 0 | 2026-11-20 | ok |
+| RTS Info | general | 4 | 2 | 2026-11-21 | ok |
 | Bilan | general | 4 | 2 | 2026-11-18 | ok |
 | WWD | general | 4 | 3 | 2026-11-17 | ok |
 | 24 heures | general | 4 | 3 | 2026-11-19 | ok |
@@ -58,8 +58,8 @@ Updated 21 Nov 2026 18:04 UTC. Counts are stories found in the last 30 days.
 | Agefi | general | 5 | 0 | 2026-11-18 | ok |
 | Wallpaper | general | 6 | 0 | 2026-11-13 | ok |
 | Arcinfo | general | 6 | 3 | 2026-11-19 | ok |
-| Swisswatches Magazine | watch | 7 | 3 | 2026-11-18 | ok |
 | Unpolished | watch | 7 | 4 | 2026-11-21 | ok |
+| Swisswatches Magazine | watch | 8 | 4 | 2026-11-21 | ok |
 | Time and Watches | watch | 9 | 0 | 2026-11-21 | ok |
 | Le Temps | general | 10 | 3 | 2026-11-19 | ok |
 | A Timely Perspective | watch | 11 | 0 | 2026-11-12 | ok |
