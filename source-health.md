@@ -1,13 +1,13 @@
 # Source health
 
-Updated 22 Nov 2026 08:41 UTC. Counts are stories found in the last 30 days.
+Updated 22 Nov 2026 15:57 UTC. Counts are stories found in the last 30 days.
 
 ## Sources on the list
 
 | Source | Kind | Stories (30 days) | Scored 6+ | Newest story | Last run |
 |---|---|---|---|---|---|
-| A Collected Man | watch | 0 | 0 | never | ok |
-| Hairspring Journal | watch | 0 | 0 | never | ok |
+| A Collected Man | watch | 0 | 0 | never | FAILED |
+| Hairspring Journal | watch | 0 | 0 | never | FAILED |
 | IPKat | general | 0 | 0 | never | ok |
 | World Trademark Review | general | 0 | 0 | never | ok |
 | Swissinfo (English) | general | 0 | 0 | never | ok |
@@ -45,7 +45,7 @@ Updated 22 Nov 2026 08:41 UTC. Counts are stories found in the last 30 days.
 | Coronet | watch | 2 | 2 | 2026-11-20 | ok |
 | Luxury Tribune | general | 2 | 2 | 2026-10-27 | ok |
 | Escapement Magazine | watch | 3 | 0 | 2026-11-12 | FAILED |
-| Hairspring Finds | watch | 3 | 0 | 2026-11-21 | ok |
+| Hairspring Finds | watch | 3 | 0 | 2026-11-21 | FAILED |
 | Luxury Daily | general | 3 | 0 | 2026-11-16 | ok |
 | Swissinfo (French) | general | 3 | 0 | 2026-11-14 | ok |
 | JCK | general | 3 | 1 | 2026-11-12 | ok |
@@ -60,29 +60,29 @@ Updated 22 Nov 2026 08:41 UTC. Counts are stories found in the last 30 days.
 | Arcinfo | general | 6 | 3 | 2026-11-19 | ok |
 | Unpolished | watch | 7 | 4 | 2026-11-21 | ok |
 | Swisswatches Magazine | watch | 8 | 4 | 2026-11-21 | ok |
+| A Timely Perspective | watch | 10 | 0 | 2026-11-12 | ok |
 | Time and Watches | watch | 10 | 0 | 2026-11-22 | ok |
 | Le Temps | general | 10 | 3 | 2026-11-19 | ok |
-| A Timely Perspective | watch | 11 | 0 | 2026-11-12 | ok |
 | GQ watches | general | 11 | 1 | 2026-11-20 | ok |
-| Deployant | watch | 19 | 1 | 2026-11-21 | ok |
 | WatchPro USA | watch | 19 | 7 | 2026-11-18 | ok |
+| Deployant | watch | 20 | 1 | 2026-11-22 | ok |
 | FH (Swiss watch federation) | watch | 24 | 0 | 2026-11-16 | ok |
 | Watchonista | watch | 25 | 0 | 2026-11-13 | ok |
 | Revolution | watch | 25 | 2 | 2026-11-20 | ok |
-| WatchTime | watch | 28 | 0 | 2026-11-21 | ok |
 | WatchPro | watch | 28 | 11 | 2026-11-20 | ok |
+| WatchTime | watch | 29 | 0 | 2026-11-22 | ok |
 | Europa Star | watch | 29 | 3 | 2026-11-20 | ok |
 | Robb Report | watch | 29 | 9 | 2026-11-21 | ok |
 | Watches by SJX | watch | 31 | 6 | 2026-11-20 | ok |
 | Worn & Wound | watch | 34 | 0 | 2026-11-21 | ok |
-| Two Broke Watch Snobs | watch | 38 | 0 | 2026-11-21 | ok |
-| aBlogtoWatch | watch | 42 | 3 | 2026-11-22 | ok |
-| Oracle Time | watch | 44 | 1 | 2026-11-22 | ok |
+| Two Broke Watch Snobs | watch | 39 | 0 | 2026-11-22 | ok |
+| aBlogtoWatch | watch | 42 | 3 | 2026-11-22 | FAILED |
 | Hodinkee | watch | 44 | 4 | 2026-11-20 | ok |
 | Watch Collecting Lifestyle | watch | 44 | 5 | 2026-11-21 | ok |
-| Time+Tide | watch | 52 | 1 | 2026-11-22 | ok |
-| Fratello | watch | 54 | 2 | 2026-11-22 | ok |
-| Monochrome | watch | 55 | 5 | 2026-11-21 | ok |
+| Oracle Time | watch | 45 | 1 | 2026-11-22 | ok |
+| Time+Tide | watch | 53 | 1 | 2026-11-22 | ok |
+| Fratello | watch | 55 | 2 | 2026-11-22 | ok |
+| Monochrome | watch | 56 | 5 | 2026-11-22 | ok |
 
 ## Outlets the news searches found that are not on the list
 
@@ -96,6 +96,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 | witness.co.za | The Witness | 2 | 2 | 8.0 | WATCH - PMB Mall employees feared for their lives during jewellery store robbery |
 | ilmattino.it | Il Mattino | 2 | 2 | 6.5 | Schumacher's F.P. Journe watches achieve record sales at Christie's |
 | capital.de | Capital | 2 | 2 | 7.5 | Hublot founder misses the old elegance of his watch brand |
+| en.worldtempus.com | WorldTempus | 2 | 2 | 6.5 | Letter from the editor: Grand Prix – What Happened? |
 | en.ilsole24ore.com | en.ilsole24ore | 2 | 2 | 8.0 | Watches: the agreement with Switzerland is set to boost sales in China |
 | lepoint.fr | Le Point | 6 | 1 | 3.3 | Bandit watches at auction: justice sells off the loot |
 | luxe.outlookindia.com | luxe.outlookindia | 5 | 1 | 3.0 | Patek Philippe Ref. 3970 Sells For CHF 2Million At Sotheby’s Auction |
@@ -129,4 +130,3 @@ Stories that came in through the search phrases, grouped by website. High counts
 | workzeitung.ch | workzeitung.ch | 1 | 1 | 8.0 | Shock for the watch industry in the Jura region |
 | shawlocal.com | Shaw Local | 1 | 1 | 6.0 | O’Hare authorities seize more than $6.2M in counterfeit watches, illegal steroids |
 | gazettengr.com | Peoples Gazette | 1 | 1 | 8.0 | Ex-Mexican footballer charged in U.S. over fake luxury watch trafficking |
-| bnonews.com | BNO News | 1 | 1 | 7.0 | Mexican goalkeeper charged in Texas with trafficking fake luxury watches |
