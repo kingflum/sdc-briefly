@@ -1,6 +1,6 @@
 # Source health
 
-Updated 22 Nov 2026 03:58 UTC. Counts are stories found in the last 30 days.
+Updated 22 Nov 2026 08:41 UTC. Counts are stories found in the last 30 days.
 
 ## Sources on the list
 
@@ -8,7 +8,6 @@ Updated 22 Nov 2026 03:58 UTC. Counts are stories found in the last 30 days.
 |---|---|---|---|---|---|
 | A Collected Man | watch | 0 | 0 | never | ok |
 | Hairspring Journal | watch | 0 | 0 | never | ok |
-| FHH | watch | 0 | 0 | never | FAILED |
 | IPKat | general | 0 | 0 | never | ok |
 | World Trademark Review | general | 0 | 0 | never | ok |
 | Swissinfo (English) | general | 0 | 0 | never | ok |
@@ -44,6 +43,7 @@ Updated 22 Nov 2026 03:58 UTC. Counts are stories found in the last 30 days.
 | ScrewDownCrown | watch | 2 | 1 | 2026-11-18 | ok |
 | Jing Daily | general | 2 | 2 | 2026-11-19 | ok |
 | Coronet | watch | 2 | 2 | 2026-11-20 | ok |
+| Luxury Tribune | general | 2 | 2 | 2026-10-27 | ok |
 | Escapement Magazine | watch | 3 | 0 | 2026-11-12 | FAILED |
 | Hairspring Finds | watch | 3 | 0 | 2026-11-21 | ok |
 | Luxury Daily | general | 3 | 0 | 2026-11-16 | ok |
@@ -60,7 +60,7 @@ Updated 22 Nov 2026 03:58 UTC. Counts are stories found in the last 30 days.
 | Arcinfo | general | 6 | 3 | 2026-11-19 | ok |
 | Unpolished | watch | 7 | 4 | 2026-11-21 | ok |
 | Swisswatches Magazine | watch | 8 | 4 | 2026-11-21 | ok |
-| Time and Watches | watch | 9 | 0 | 2026-11-21 | ok |
+| Time and Watches | watch | 10 | 0 | 2026-11-22 | ok |
 | Le Temps | general | 10 | 3 | 2026-11-19 | ok |
 | A Timely Perspective | watch | 11 | 0 | 2026-11-12 | ok |
 | GQ watches | general | 11 | 1 | 2026-11-20 | ok |
@@ -76,12 +76,12 @@ Updated 22 Nov 2026 03:58 UTC. Counts are stories found in the last 30 days.
 | Watches by SJX | watch | 31 | 6 | 2026-11-20 | ok |
 | Worn & Wound | watch | 34 | 0 | 2026-11-21 | ok |
 | Two Broke Watch Snobs | watch | 38 | 0 | 2026-11-21 | ok |
-| aBlogtoWatch | watch | 41 | 3 | 2026-11-21 | ok |
-| Oracle Time | watch | 43 | 1 | 2026-11-21 | ok |
+| aBlogtoWatch | watch | 42 | 3 | 2026-11-22 | ok |
+| Oracle Time | watch | 44 | 1 | 2026-11-22 | ok |
 | Hodinkee | watch | 44 | 4 | 2026-11-20 | ok |
 | Watch Collecting Lifestyle | watch | 44 | 5 | 2026-11-21 | ok |
-| Time+Tide | watch | 51 | 1 | 2026-11-21 | ok |
-| Fratello | watch | 53 | 2 | 2026-11-21 | ok |
+| Time+Tide | watch | 52 | 1 | 2026-11-22 | ok |
+| Fratello | watch | 54 | 2 | 2026-11-22 | ok |
 | Monochrome | watch | 55 | 5 | 2026-11-21 | ok |
 
 ## Outlets the news searches found that are not on the list
@@ -93,7 +93,6 @@ Stories that came in through the search phrases, grouped by website. High counts
 | note.com | note | 8 | 3 | 3.6 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
 | thehourmarkers.com | thehourmarkers | 4 | 2 | 5.2 | Is Breguet About To Make A Comeback? |
 | marketscreener.com | MarketScreener | 3 | 2 | 6.0 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
-| luxurytribune.com | luxurytribune | 2 | 2 | 8.5 | Jacqueline Dimier has passed away: watchmaking loses a visionary designer, who made Audema |
 | witness.co.za | The Witness | 2 | 2 | 8.0 | WATCH - PMB Mall employees feared for their lives during jewellery store robbery |
 | ilmattino.it | Il Mattino | 2 | 2 | 6.5 | Schumacher's F.P. Journe watches achieve record sales at Christie's |
 | capital.de | Capital | 2 | 2 | 7.5 | Hublot founder misses the old elegance of his watch brand |
@@ -130,3 +129,4 @@ Stories that came in through the search phrases, grouped by website. High counts
 | workzeitung.ch | workzeitung.ch | 1 | 1 | 8.0 | Shock for the watch industry in the Jura region |
 | shawlocal.com | Shaw Local | 1 | 1 | 6.0 | O’Hare authorities seize more than $6.2M in counterfeit watches, illegal steroids |
 | gazettengr.com | Peoples Gazette | 1 | 1 | 8.0 | Ex-Mexican footballer charged in U.S. over fake luxury watch trafficking |
+| bnonews.com | BNO News | 1 | 1 | 7.0 | Mexican goalkeeper charged in Texas with trafficking fake luxury watches |
