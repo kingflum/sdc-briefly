@@ -1,6 +1,8 @@
 # Source health
 
-Updated 23 Nov 2026 04:12 UTC. Counts are stories found in the last 30 days.
+Updated 23 Nov 2026 05:21 UTC. Counts are stories found in the last 30 days.
+
+Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
 ## Sources on the list
 
@@ -13,20 +15,20 @@ Updated 23 Nov 2026 04:12 UTC. Counts are stories found in the last 30 days.
 | Swissinfo (English) | general | 0 | 0 | never | ok |
 | Independ Horology | watch | 0 | 0 | never | ok |
 | Horopedia | watch | 0 | 0 | never | ok |
-| Split Seconds (Jack Forster) | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| (un)Complicated | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| Free Sprung | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| Kilian Eisenegger | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| Performance Watch Review | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| Pointless Complication | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| Remontoir | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| Scaramanga's Den | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| Sfwatchlover | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| SWIMPRUF | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| The Grumpy Watch Collector | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| The Sunday Reserve | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| The Watchmaker's Daughter | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
-| Watch Lover | watch | 0 | 0 | never | skipped (Substack blocks cloud servers) |
+| Split Seconds (Jack Forster) | watch | 0 | 0 | never | sent in via newsletters.json |
+| (un)Complicated | watch | 0 | 0 | never | sent in via newsletters.json |
+| Free Sprung | watch | 0 | 0 | never | sent in via newsletters.json |
+| Kilian Eisenegger | watch | 0 | 0 | never | sent in via newsletters.json |
+| Performance Watch Review | watch | 0 | 0 | never | sent in via newsletters.json |
+| Pointless Complication | watch | 0 | 0 | never | sent in via newsletters.json |
+| Remontoir | watch | 0 | 0 | never | sent in via newsletters.json |
+| Scaramanga's Den | watch | 0 | 0 | never | sent in via newsletters.json |
+| Sfwatchlover | watch | 0 | 0 | never | sent in via newsletters.json |
+| SWIMPRUF | watch | 0 | 0 | never | sent in via newsletters.json |
+| The Grumpy Watch Collector | watch | 0 | 0 | never | sent in via newsletters.json |
+| The Sunday Reserve | watch | 0 | 0 | never | sent in via newsletters.json |
+| The Watchmaker's Daughter | watch | 0 | 0 | never | sent in via newsletters.json |
+| Watch Lover | watch | 0 | 0 | never | sent in via newsletters.json |
 | Wired | general | 0 | 0 | never | ok |
 | Futurism | general | 0 | 0 | never | ok |
 | New York Times (Business) | general | 0 | 0 | never | ok |
