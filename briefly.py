@@ -422,6 +422,39 @@ def collect(verbose=True):
             pass
 
 
+NEWSLETTERS = os.path.join(HERE, "newsletters.json")
+
+
+def import_newsletters(con, now, cutoff):
+    """Substack blocks cloud servers, so newsletter posts arrive in newsletters.json, sent in by a
+    reader that can fetch them. New posts join the ordinary stories and are ranked like them."""
+    if not os.path.exists(NEWSLETTERS):
+        return [], ""
+    try:
+        data = json.load(open(NEWSLETTERS, encoding="utf-8"))
+    except ValueError:
+        return [], "newsletters.json could not be read."
+    names = {s["name"] for s in read_sources() if is_newsletter(s)}
+    ids = []
+    for it in data.get("items", []):
+        url = clean_url(it.get("url", ""))
+        when = to_date(it.get("published", "")) or now
+        if not url.startswith("https://") or "substack.com" not in url or it.get("source") not in names \
+                or when < cutoff or con.execute("SELECT 1 FROM items WHERE url=?", (url,)).fetchone():
+            continue
+        title, ex = (it.get("title") or "").strip()[:300], (it.get("excerpt") or "").strip()[:600]
+        if not title or JUNK.search(title):
+            continue
+        score, tag = rule_score(title, ex, "watch", it["source"])
+        cur = con.execute("INSERT OR IGNORE INTO items(url,title,excerpt,source,kind,published,found,score,tag,emoji)"
+                          " VALUES(?,?,?,?,?,?,?,?,?,?)", (url, title, ex, it["source"], "watch", when.isoformat(),
+                                                           now.isoformat(), score, tag, EMOJI.get(tag, "📰")))
+        if cur.rowcount:
+            ids.append(cur.lastrowid)
+    con.commit()
+    return ids, "%d new newsletter posts (list sent %s)." % (len(ids), data.get("updated", "?")[:16])
+
+
 def _collect(verbose, only=None, note=""):
     from concurrent.futures import ThreadPoolExecutor, as_completed
     con = db()
@@ -490,6 +523,9 @@ def _collect(verbose, only=None, note=""):
             if JUNK.search(r["title"]) or not STRONG.search(r["title"] + " " + (r["excerpt"] or ""))]
     if junk:
         con.execute("UPDATE items SET hidden=1 WHERE picked=0 AND id IN (%s)" % ",".join(junk))
+    nl_ids, nl_note = import_newsletters(con, now, cutoff)
+    new_ids += nl_ids
+    note = (note + " " + nl_note).strip()
     translate_missing(con, verbose)
     dedupe(con)
     say("Ranking...", verbose)
@@ -849,7 +885,15 @@ def health():
     if os.path.exists(LOG):
         failed = {m.group(1).strip() for m in re.finditer(r"^FAILED\s+(.+?)\s{2}\(", open(LOG, encoding="utf-8").read(), re.M)}
     known_hosts = {host_of(s["addr"]) for s in read_sources() if s["kind"] != "search"}
+    sent = "never"
+    if os.path.exists(NEWSLETTERS):
+        try:
+            sent = json.load(open(NEWSLETTERS, encoding="utf-8")).get("updated", "unknown")[:16]
+        except ValueError:
+            sent = "unreadable"
     out = ["# Source health", "", "Updated %s. Counts are stories found in the last 30 days." % now.strftime("%d %b %Y %H:%M UTC"),
+           "", "Newsletter list (newsletters.json) last sent: %s UTC. If this is more than 3 days old, "
+           "Substack posts have stopped arriving." % sent,
            "", "## Sources on the list", "",
            "| Source | Kind | Stories (30 days) | Scored 6+ | Newest story | Last run |", "|---|---|---|---|---|---|"]
     rows = []
@@ -865,7 +909,7 @@ def health():
         rows.append((q[0] or 0, s, q[1] or 0, (newest or "")[:10]))
     for n, s, good, newest in sorted(rows, key=lambda r: (r[0], r[2])):
         out.append("| %s | %s | %d | %d | %s | %s |" % (s["name"], s["kind"], n, good, newest or "never",
-                                                       "skipped (Substack blocks cloud servers)" if is_newsletter(s)
+                                                       "sent in via newsletters.json" if is_newsletter(s)
                                                        else "FAILED" if s["name"] in failed else "ok"))
     out += ["", "## Outlets the news searches found that are not on the list", "",
             "Stories that came in through the search phrases, grouped by website. High counts of good stories "
