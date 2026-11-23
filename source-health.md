@@ -1,6 +1,6 @@
 # Source health
 
-Updated 22 Nov 2026 15:57 UTC. Counts are stories found in the last 30 days.
+Updated 23 Nov 2026 04:12 UTC. Counts are stories found in the last 30 days.
 
 ## Sources on the list
 
@@ -33,12 +33,12 @@ Updated 22 Nov 2026 15:57 UTC. Counts are stories found in the last 30 days.
 | New York Times (Style) | general | 0 | 0 | never | ok |
 | New Yorker | general | 0 | 0 | never | ok |
 | Quill & Pad | watch | 1 | 0 | 2026-11-06 | ok |
-| The Time Bum | watch | 1 | 0 | 2026-11-19 | ok |
 | The Fourth Wheel | watch | 1 | 0 | 2026-11-20 | ok |
 | Miss Tweed | general | 1 | 1 | 2026-11-16 | ok |
 | The Fashion Law | general | 1 | 1 | 2026-11-06 | ok |
 | Wall Street Journal | general | 1 | 1 | 2026-11-18 | ok |
 | Professional Watches | watch | 2 | 0 | 2026-11-19 | ok |
+| The Time Bum | watch | 2 | 0 | 2026-11-22 | ok |
 | Business of Fashion | general | 2 | 1 | 2026-11-17 | ok |
 | ScrewDownCrown | watch | 2 | 1 | 2026-11-18 | ok |
 | Jing Daily | general | 2 | 2 | 2026-11-19 | ok |
@@ -71,17 +71,17 @@ Updated 22 Nov 2026 15:57 UTC. Counts are stories found in the last 30 days.
 | Revolution | watch | 25 | 2 | 2026-11-20 | ok |
 | WatchPro | watch | 28 | 11 | 2026-11-20 | ok |
 | WatchTime | watch | 29 | 0 | 2026-11-22 | ok |
-| Europa Star | watch | 29 | 3 | 2026-11-20 | ok |
 | Robb Report | watch | 29 | 9 | 2026-11-21 | ok |
-| Watches by SJX | watch | 31 | 6 | 2026-11-20 | ok |
+| Europa Star | watch | 30 | 3 | 2026-11-22 | ok |
+| Watches by SJX | watch | 33 | 6 | 2026-11-23 | ok |
 | Worn & Wound | watch | 34 | 0 | 2026-11-21 | ok |
 | Two Broke Watch Snobs | watch | 39 | 0 | 2026-11-22 | ok |
-| aBlogtoWatch | watch | 42 | 3 | 2026-11-22 | FAILED |
+| aBlogtoWatch | watch | 43 | 3 | 2026-11-22 | ok |
 | Hodinkee | watch | 44 | 4 | 2026-11-20 | ok |
 | Watch Collecting Lifestyle | watch | 44 | 5 | 2026-11-21 | ok |
 | Oracle Time | watch | 45 | 1 | 2026-11-22 | ok |
 | Time+Tide | watch | 53 | 1 | 2026-11-22 | ok |
-| Fratello | watch | 55 | 2 | 2026-11-22 | ok |
+| Fratello | watch | 56 | 2 | 2026-11-22 | ok |
 | Monochrome | watch | 56 | 5 | 2026-11-22 | ok |
 
 ## Outlets the news searches found that are not on the list
@@ -90,7 +90,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 
 | Website | Outlet name | Stories (30 days) | Scored 6+ | Average score | Example headline |
 |---|---|---|---|---|---|
-| note.com | note | 8 | 3 | 3.6 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
+| note.com | note | 11 | 3 | 3.3 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
 | thehourmarkers.com | thehourmarkers | 4 | 2 | 5.2 | Is Breguet About To Make A Comeback? |
 | marketscreener.com | MarketScreener | 3 | 2 | 6.0 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
 | witness.co.za | The Witness | 2 | 2 | 8.0 | WATCH - PMB Mall employees feared for their lives during jewellery store robbery |
@@ -98,6 +98,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 | capital.de | Capital | 2 | 2 | 7.5 | Hublot founder misses the old elegance of his watch brand |
 | en.worldtempus.com | WorldTempus | 2 | 2 | 6.5 | Letter from the editor: Grand Prix – What Happened? |
 | en.ilsole24ore.com | en.ilsole24ore | 2 | 2 | 8.0 | Watches: the agreement with Switzerland is set to boost sales in China |
+| artdaily.com | Artdaily | 2 | 2 | 8.5 | Christie's delivers its highest watch auction total ever achieving more than US$ 58 millio |
 | lepoint.fr | Le Point | 6 | 1 | 3.3 | Bandit watches at auction: justice sells off the loot |
 | luxe.outlookindia.com | luxe.outlookindia | 5 | 1 | 3.0 | Patek Philippe Ref. 3970 Sells For CHF 2Million At Sotheby’s Auction |
 | blick.ch | Blick | 3 | 1 | 5.0 | Christian Selmoni, the dandy who refused to run Vacheron Constantin |
@@ -109,6 +110,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 | rapaport.com | Rapaport | 2 | 1 | 5.0 | Christie’s Achieves Its Highest-Ever Watch Auction Total of $58.7M |
 | ft.com | Financial Times | 2 | 1 | 5.5 | Watchmakers dial into ideas from collector networks |
 | businesstoday.in | Business Today | 2 | 1 | 4.5 | India's luxury watch market is booming. Global brands want a bigger share |
+| theaustralian.com.au | The Australian | 2 | 1 | 4.5 | The independent watch scene is booming – what does it mean for the industry? |
 | tf1info.fr | TF1 INFO | 1 | 1 | 7.0 | “We need 2 million euros”: the Paris Observatory calls for donations to replace its “end o |
 | tf1.fr | TF1 | 1 | 1 | 8.0 | Quand l'horlogerie relocalise |
 | bilanz.ch | Bilanz | 1 | 1 | 9.0 | Patek boss snaps up luxury property for 38 million |
@@ -128,5 +130,3 @@ Stories that came in through the search phrases, grouped by website. High counts
 | theboltonnews.co.uk | The Bolton News | 1 | 1 | 6.0 | Handrail Creations works with Rolex, royalty and footballer stars |
 | insideparadeplatz.ch | Inside Paradeplatz | 1 | 1 | 8.0 | The Bucherer banker |
 | workzeitung.ch | workzeitung.ch | 1 | 1 | 8.0 | Shock for the watch industry in the Jura region |
-| shawlocal.com | Shaw Local | 1 | 1 | 6.0 | O’Hare authorities seize more than $6.2M in counterfeit watches, illegal steroids |
-| gazettengr.com | Peoples Gazette | 1 | 1 | 8.0 | Ex-Mexican footballer charged in U.S. over fake luxury watch trafficking |
