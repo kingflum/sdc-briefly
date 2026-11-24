@@ -1,6 +1,6 @@
 # Source health
 
-Updated 23 Nov 2026 16:22 UTC. Counts are stories found in the last 30 days.
+Updated 24 Nov 2026 04:05 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -48,43 +48,43 @@ Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 
 | Escapement Magazine | watch | 3 | 0 | 2026-11-12 | FAILED |
 | Hairspring Finds | watch | 3 | 0 | 2026-11-21 | ok |
 | Swissinfo (French) | general | 3 | 0 | 2026-11-14 | ok |
-| JCK | general | 3 | 1 | 2026-11-12 | ok |
 | ScrewDownCrown | watch | 3 | 1 | 2026-11-23 | ok |
 | Luxury Daily | general | 4 | 0 | 2026-11-23 | ok |
+| JCK | general | 4 | 2 | 2026-11-23 | ok |
 | RTS Info | general | 4 | 2 | 2026-11-21 | ok |
 | Bilan | general | 4 | 2 | 2026-11-18 | ok |
 | WWD | general | 4 | 3 | 2026-11-17 | ok |
 | 24 heures | general | 4 | 3 | 2026-11-19 | ok |
-| Scottish Watches | watch | 5 | 0 | 2026-11-20 | ok |
 | Agefi | general | 5 | 0 | 2026-11-18 | ok |
 | WristReview | watch | 5 | 0 | 2026-11-23 | ok |
+| Scottish Watches | watch | 6 | 0 | 2026-11-24 | ok |
 | Wallpaper | general | 6 | 0 | 2026-11-13 | ok |
 | Arcinfo | general | 6 | 3 | 2026-11-19 | ok |
-| Swisswatches Magazine | watch | 8 | 4 | 2026-11-21 | ok |
 | Unpolished | watch | 8 | 4 | 2026-11-23 | ok |
-| A Timely Perspective | watch | 9 | 0 | 2026-11-12 | ok |
+| Swisswatches Magazine | watch | 9 | 5 | 2026-11-23 | ok |
+| A Timely Perspective | watch | 10 | 0 | 2026-11-23 | ok |
 | Le Temps | general | 10 | 3 | 2026-11-19 | ok |
 | Time and Watches | watch | 11 | 0 | 2026-11-23 | ok |
-| GQ watches | general | 11 | 1 | 2026-11-20 | ok |
+| GQ watches | general | 12 | 1 | 2026-11-23 | ok |
 | WatchPro USA | watch | 19 | 7 | 2026-11-18 | ok |
 | Deployant | watch | 21 | 1 | 2026-11-23 | ok |
 | FH (Swiss watch federation) | watch | 24 | 0 | 2026-11-16 | ok |
 | Watchonista | watch | 25 | 0 | 2026-11-13 | ok |
 | Revolution | watch | 26 | 2 | 2026-11-23 | ok |
 | Europa Star | watch | 30 | 3 | 2026-11-22 | ok |
-| Robb Report | watch | 30 | 9 | 2026-11-23 | ok |
 | WatchTime | watch | 31 | 0 | 2026-11-23 | ok |
-| WatchPro | watch | 31 | 13 | 2026-11-23 | ok |
-| Watches by SJX | watch | 33 | 6 | 2026-11-23 | ok |
-| Worn & Wound | watch | 35 | 0 | 2026-11-23 | ok |
+| Robb Report | watch | 31 | 9 | 2026-11-23 | ok |
+| WatchPro | watch | 33 | 14 | 2026-11-23 | ok |
+| Watches by SJX | watch | 35 | 6 | 2026-11-24 | ok |
+| Worn & Wound | watch | 36 | 0 | 2026-11-23 | ok |
 | Two Broke Watch Snobs | watch | 40 | 0 | 2026-11-23 | ok |
-| aBlogtoWatch | watch | 44 | 4 | 2026-11-23 | ok |
+| aBlogtoWatch | watch | 45 | 4 | 2026-11-23 | ok |
 | Watch Collecting Lifestyle | watch | 45 | 5 | 2026-11-23 | ok |
 | Hodinkee | watch | 46 | 5 | 2026-11-23 | ok |
 | Oracle Time | watch | 49 | 1 | 2026-11-23 | ok |
 | Time+Tide | watch | 56 | 1 | 2026-11-23 | ok |
 | Fratello | watch | 59 | 2 | 2026-11-23 | ok |
-| Monochrome | watch | 59 | 5 | 2026-11-23 | ok |
+| Monochrome | watch | 60 | 5 | 2026-11-23 | ok |
 
 ## Outlets the news searches found that are not on the list
 
@@ -92,7 +92,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 
 | Website | Outlet name | Stories (30 days) | Scored 6+ | Average score | Example headline |
 |---|---|---|---|---|---|
-| note.com | note | 12 | 3 | 3.4 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
+| note.com | note | 13 | 3 | 3.3 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
 | artdaily.com | Artdaily | 3 | 3 | 8.7 | Christie's delivers its highest watch auction total ever achieving more than US$ 58 millio |
 | thehourmarkers.com | thehourmarkers | 4 | 2 | 5.2 | Is Breguet About To Make A Comeback? |
 | marketscreener.com | MarketScreener | 3 | 2 | 6.0 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
@@ -112,6 +112,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 | sohu.com | 搜狐 | 2 | 1 | 5.5 | Rolex is also going to open a cafe? "ROLEX CAFÉ" trademark application has been submitted |
 | rapaport.com | Rapaport | 2 | 1 | 5.0 | Christie’s Achieves Its Highest-Ever Watch Auction Total of $58.7M |
 | ft.com | Financial Times | 2 | 1 | 5.5 | Watchmakers dial into ideas from collector networks |
+| polizei.news | polizei | 2 | 1 | 4.0 | Watches and jewellery seized: police seek the rightful owners |
 | businesstoday.in | Business Today | 2 | 1 | 4.5 | India's luxury watch market is booming. Global brands want a bigger share |
 | theaustralian.com.au | The Australian | 2 | 1 | 4.5 | The independent watch scene is booming – what does it mean for the industry? |
 | tf1info.fr | TF1 INFO | 1 | 1 | 7.0 | “We need 2 million euros”: the Paris Observatory calls for donations to replace its “end o |
@@ -131,4 +132,3 @@ Stories that came in through the search phrases, grouped by website. High counts
 | cnycentral.com | CNY Central | 1 | 1 | 8.0 | Watch the video: Suspects steal electric scooters in Village of Munnsville |
 | satrucker.co.za | SA Trucker | 1 | 1 | 8.0 | Watch: Five CIT Suspects Killed in Gqeberha Shootout Caught on Camera |
 | theboltonnews.co.uk | The Bolton News | 1 | 1 | 6.0 | Handrail Creations works with Rolex, royalty and footballer stars |
-| insideparadeplatz.ch | Inside Paradeplatz | 1 | 1 | 8.0 | The Bucherer banker |
