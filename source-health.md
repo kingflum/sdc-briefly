@@ -1,6 +1,6 @@
 # Source health
 
-Updated 24 Nov 2026 16:26 UTC. Counts are stories found in the last 30 days.
+Updated 24 Nov 2026 20:23 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -76,15 +76,15 @@ Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 
 | WatchTime | watch | 34 | 0 | 2026-11-24 | ok |
 | WatchPro | watch | 35 | 15 | 2026-11-24 | ok |
 | Watches by SJX | watch | 36 | 6 | 2026-11-24 | ok |
-| Worn & Wound | watch | 37 | 0 | 2026-11-24 | ok |
-| Two Broke Watch Snobs | watch | 41 | 0 | 2026-11-24 | ok |
+| Worn & Wound | watch | 38 | 0 | 2026-11-24 | ok |
+| Two Broke Watch Snobs | watch | 43 | 0 | 2026-11-24 | ok |
 | Watch Collecting Lifestyle | watch | 46 | 5 | 2026-11-24 | ok |
-| aBlogtoWatch | watch | 47 | 4 | 2026-11-24 | ok |
+| aBlogtoWatch | watch | 48 | 4 | 2026-11-24 | ok |
 | Hodinkee | watch | 49 | 5 | 2026-11-24 | ok |
 | Oracle Time | watch | 53 | 1 | 2026-11-24 | ok |
 | Time+Tide | watch | 58 | 1 | 2026-11-24 | ok |
-| Monochrome | watch | 63 | 5 | 2026-11-24 | ok |
 | Fratello | watch | 64 | 2 | 2026-11-24 | ok |
+| Monochrome | watch | 64 | 5 | 2026-11-24 | ok |
 
 ## Outlets the news searches found that are not on the list
 
