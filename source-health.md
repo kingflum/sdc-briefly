@@ -1,6 +1,6 @@
 # Source health
 
-Updated 24 Nov 2026 04:05 UTC. Counts are stories found in the last 30 days.
+Updated 24 Nov 2026 16:26 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -9,7 +9,6 @@ Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 
 | Source | Kind | Stories (30 days) | Scored 6+ | Newest story | Last run |
 |---|---|---|---|---|---|
 | A Collected Man | watch | 0 | 0 | never | ok |
-| Hairspring Journal | watch | 0 | 0 | never | ok |
 | IPKat | general | 0 | 0 | never | ok |
 | World Trademark Review | general | 0 | 0 | never | ok |
 | Swissinfo (English) | general | 0 | 0 | never | ok |
@@ -35,6 +34,7 @@ Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 
 | New York Times (Style) | general | 0 | 0 | never | ok |
 | New Yorker | general | 0 | 0 | never | ok |
 | Quill & Pad | watch | 1 | 0 | 2026-11-06 | ok |
+| Hairspring Journal | watch | 1 | 0 | 2026-11-24 | ok |
 | The Fourth Wheel | watch | 1 | 0 | 2026-11-20 | ok |
 | Miss Tweed | general | 1 | 1 | 2026-11-16 | ok |
 | The Fashion Law | general | 1 | 1 | 2026-11-06 | ok |
@@ -43,48 +43,48 @@ Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 
 | The Time Bum | watch | 2 | 0 | 2026-11-22 | ok |
 | Business of Fashion | general | 2 | 1 | 2026-11-17 | ok |
 | Jing Daily | general | 2 | 2 | 2026-11-19 | ok |
-| Coronet | watch | 2 | 2 | 2026-11-20 | ok |
 | Luxury Tribune | general | 2 | 2 | 2026-10-27 | ok |
 | Escapement Magazine | watch | 3 | 0 | 2026-11-12 | FAILED |
 | Hairspring Finds | watch | 3 | 0 | 2026-11-21 | ok |
 | Swissinfo (French) | general | 3 | 0 | 2026-11-14 | ok |
 | ScrewDownCrown | watch | 3 | 1 | 2026-11-23 | ok |
-| Luxury Daily | general | 4 | 0 | 2026-11-23 | ok |
+| Coronet | watch | 3 | 2 | 2026-11-24 | ok |
 | JCK | general | 4 | 2 | 2026-11-23 | ok |
 | RTS Info | general | 4 | 2 | 2026-11-21 | ok |
 | Bilan | general | 4 | 2 | 2026-11-18 | ok |
 | WWD | general | 4 | 3 | 2026-11-17 | ok |
 | 24 heures | general | 4 | 3 | 2026-11-19 | ok |
+| Luxury Daily | general | 5 | 0 | 2026-11-24 | ok |
 | Agefi | general | 5 | 0 | 2026-11-18 | ok |
 | WristReview | watch | 5 | 0 | 2026-11-23 | ok |
 | Scottish Watches | watch | 6 | 0 | 2026-11-24 | ok |
 | Wallpaper | general | 6 | 0 | 2026-11-13 | ok |
 | Arcinfo | general | 6 | 3 | 2026-11-19 | ok |
-| Unpolished | watch | 8 | 4 | 2026-11-23 | ok |
+| Unpolished | watch | 9 | 4 | 2026-11-24 | ok |
 | Swisswatches Magazine | watch | 9 | 5 | 2026-11-23 | ok |
-| A Timely Perspective | watch | 10 | 0 | 2026-11-23 | ok |
 | Le Temps | general | 10 | 3 | 2026-11-19 | ok |
-| Time and Watches | watch | 11 | 0 | 2026-11-23 | ok |
+| A Timely Perspective | watch | 11 | 0 | 2026-11-24 | ok |
+| Time and Watches | watch | 12 | 0 | 2026-11-24 | ok |
 | GQ watches | general | 12 | 1 | 2026-11-23 | ok |
-| WatchPro USA | watch | 19 | 7 | 2026-11-18 | ok |
-| Deployant | watch | 21 | 1 | 2026-11-23 | ok |
+| WatchPro USA | watch | 21 | 8 | 2026-11-24 | ok |
+| Deployant | watch | 22 | 1 | 2026-11-24 | ok |
 | FH (Swiss watch federation) | watch | 24 | 0 | 2026-11-16 | ok |
 | Watchonista | watch | 25 | 0 | 2026-11-13 | ok |
-| Revolution | watch | 26 | 2 | 2026-11-23 | ok |
+| Revolution | watch | 27 | 2 | 2026-11-24 | ok |
 | Europa Star | watch | 30 | 3 | 2026-11-22 | ok |
-| WatchTime | watch | 31 | 0 | 2026-11-23 | ok |
 | Robb Report | watch | 31 | 9 | 2026-11-23 | ok |
-| WatchPro | watch | 33 | 14 | 2026-11-23 | ok |
-| Watches by SJX | watch | 35 | 6 | 2026-11-24 | ok |
-| Worn & Wound | watch | 36 | 0 | 2026-11-23 | ok |
-| Two Broke Watch Snobs | watch | 40 | 0 | 2026-11-23 | ok |
-| aBlogtoWatch | watch | 45 | 4 | 2026-11-23 | ok |
-| Watch Collecting Lifestyle | watch | 45 | 5 | 2026-11-23 | ok |
-| Hodinkee | watch | 46 | 5 | 2026-11-23 | ok |
-| Oracle Time | watch | 49 | 1 | 2026-11-23 | ok |
-| Time+Tide | watch | 56 | 1 | 2026-11-23 | ok |
-| Fratello | watch | 59 | 2 | 2026-11-23 | ok |
-| Monochrome | watch | 60 | 5 | 2026-11-23 | ok |
+| WatchTime | watch | 34 | 0 | 2026-11-24 | ok |
+| WatchPro | watch | 35 | 15 | 2026-11-24 | ok |
+| Watches by SJX | watch | 36 | 6 | 2026-11-24 | ok |
+| Worn & Wound | watch | 37 | 0 | 2026-11-24 | ok |
+| Two Broke Watch Snobs | watch | 41 | 0 | 2026-11-24 | ok |
+| Watch Collecting Lifestyle | watch | 46 | 5 | 2026-11-24 | ok |
+| aBlogtoWatch | watch | 47 | 4 | 2026-11-24 | ok |
+| Hodinkee | watch | 49 | 5 | 2026-11-24 | ok |
+| Oracle Time | watch | 53 | 1 | 2026-11-24 | ok |
+| Time+Tide | watch | 58 | 1 | 2026-11-24 | ok |
+| Monochrome | watch | 63 | 5 | 2026-11-24 | ok |
+| Fratello | watch | 64 | 2 | 2026-11-24 | ok |
 
 ## Outlets the news searches found that are not on the list
 
@@ -92,7 +92,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 
 | Website | Outlet name | Stories (30 days) | Scored 6+ | Average score | Example headline |
 |---|---|---|---|---|---|
-| note.com | note | 13 | 3 | 3.3 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
+| note.com | note | 14 | 3 | 3.2 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
 | artdaily.com | Artdaily | 3 | 3 | 8.7 | Christie's delivers its highest watch auction total ever achieving more than US$ 58 millio |
 | thehourmarkers.com | thehourmarkers | 4 | 2 | 5.2 | Is Breguet About To Make A Comeback? |
 | marketscreener.com | MarketScreener | 3 | 2 | 6.0 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
