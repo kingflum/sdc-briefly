@@ -857,6 +857,27 @@ def publish(out_dir=None):
     with open(os.path.join(out_dir, "archive.html"), "w", encoding="utf-8") as f:
         f.write(p)
 
+    # RSS feed of everything on the front page, every link tagged for SDC
+    rows = {r["url"]: r for r in con.execute("SELECT url, excerpt, excerpt_en, found FROM items WHERE published>=?", (since,))}
+    feed = ['<?xml version="1.0" encoding="UTF-8"?>',
+            '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>',
+            "<title>SDC Briefly</title><link>%s/</link>" % SITE_URL,
+            '<atom:link href="%s/feed.xml" rel="self" type="application/rss+xml"/>' % SITE_URL,
+            "<description>Curated watch industry news from ScrewDownCrown.</description>",
+            "<language>en-gb</language><lastBuildDate>%s</lastBuildDate>" % email.utils.format_datetime(now)]
+    for i in sorted(data, key=lambda x: x["d"], reverse=True)[:300]:
+        r = rows.get(i["u"])
+        ex = (r and (r["excerpt_en"] or r["excerpt"])) or ""
+        when = to_date((r and r["found"]) or "") or now
+        meta = i["s"] + (" · score %d/10" % i["n"])
+        feed.append("<item><title>%s</title><link>%s</link><guid isPermaLink=\"false\">%s</guid>"
+                    "<pubDate>%s</pubDate><source url=\"%s/feed.xml\">SDC Briefly</source><description>%s</description></item>"
+                    % (_esc(i["t"]), _esc(tagged(i["u"])), _esc(i["u"]), email.utils.format_datetime(when),
+                       SITE_URL, _esc((ex + " — " if ex else "") + meta)))
+    feed.append("</channel></rss>")
+    with open(os.path.join(out_dir, "feed.xml"), "w", encoding="utf-8") as f:
+        f.write("\n".join(feed))
+
     # sitemap and robots.txt
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
           "<url><loc>%s/</loc><lastmod>%s</lastmod><changefreq>hourly</changefreq></url>" % (SITE_URL, now.date()),
