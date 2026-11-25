@@ -1,6 +1,6 @@
 # Source health
 
-Updated 25 Nov 2026 11:46 UTC. Counts are stories found in the last 30 days.
+Updated 25 Nov 2026 16:25 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -8,7 +8,7 @@ Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is m
 
 | Source | Kind | Stories (30 days) | Scored 6+ | Newest story | Last run |
 |---|---|---|---|---|---|
-| A Collected Man | watch | 0 | 0 | never | ok |
+| A Collected Man | watch | 0 | 0 | never | FAILED |
 | IPKat | general | 0 | 0 | never | ok |
 | World Trademark Review | general | 0 | 0 | never | ok |
 | Swissinfo (English) | general | 0 | 0 | never | ok |
@@ -28,8 +28,7 @@ Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is m
 | New York Times (Business) | general | 0 | 0 | never | ok |
 | New York Times (Style) | general | 0 | 0 | never | ok |
 | New Yorker | general | 0 | 0 | never | ok |
-| Quill & Pad | watch | 1 | 0 | 2026-11-06 | ok |
-| Hairspring Journal | watch | 1 | 0 | 2026-11-24 | ok |
+| Hairspring Journal | watch | 1 | 0 | 2026-11-24 | FAILED |
 | The Fourth Wheel | watch | 1 | 0 | 2026-11-20 | ok |
 | Sfwatchlover | watch | 1 | 0 | 2026-11-23 | sent in via newsletters.json |
 | Miss Tweed | general | 1 | 1 | 2026-11-16 | ok |
@@ -39,52 +38,53 @@ Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is m
 | The Grumpy Watch Collector | watch | 1 | 1 | 2026-11-24 | sent in via newsletters.json |
 | Wall Street Journal | general | 1 | 1 | 2026-11-18 | ok |
 | Luxury Tribune | general | 1 | 1 | 2026-10-27 | ok |
+| Quill & Pad | watch | 2 | 0 | 2026-11-25 | ok |
 | Professional Watches | watch | 2 | 0 | 2026-11-19 | ok |
 | The Time Bum | watch | 2 | 0 | 2026-11-22 | ok |
 | Business of Fashion | general | 2 | 1 | 2026-11-17 | ok |
 | Jing Daily | general | 2 | 2 | 2026-11-19 | ok |
 | The Watchmaker's Daughter | watch | 2 | 2 | 2026-11-24 | sent in via newsletters.json |
 | Escapement Magazine | watch | 3 | 0 | 2026-11-12 | FAILED |
-| Hairspring Finds | watch | 3 | 0 | 2026-11-21 | ok |
+| Hairspring Finds | watch | 3 | 0 | 2026-11-21 | FAILED |
 | Swissinfo (French) | general | 3 | 0 | 2026-11-14 | ok |
 | ScrewDownCrown | watch | 3 | 1 | 2026-11-23 | ok |
-| Coronet | watch | 3 | 2 | 2026-11-24 | ok |
 | JCK | general | 4 | 2 | 2026-11-23 | ok |
 | RTS Info | general | 4 | 2 | 2026-11-21 | ok |
 | Bilan | general | 4 | 2 | 2026-11-18 | ok |
 | WWD | general | 4 | 3 | 2026-11-17 | ok |
 | 24 heures | general | 4 | 3 | 2026-11-19 | ok |
+| Coronet | watch | 4 | 3 | 2026-11-25 | ok |
 | Luxury Daily | general | 5 | 0 | 2026-11-24 | ok |
 | Agefi | general | 5 | 0 | 2026-11-18 | ok |
 | Scottish Watches | watch | 6 | 0 | 2026-11-24 | ok |
-| Wallpaper | general | 6 | 0 | 2026-11-13 | ok |
-| WristReview | watch | 6 | 0 | 2026-11-25 | ok |
+| WristReview | watch | 6 | 0 | 2026-11-25 | FAILED |
 | Arcinfo | general | 6 | 3 | 2026-11-19 | ok |
+| Wallpaper | general | 7 | 0 | 2026-11-25 | ok |
 | Unpolished | watch | 9 | 4 | 2026-11-24 | ok |
-| Swisswatches Magazine | watch | 9 | 5 | 2026-11-23 | ok |
 | A Timely Perspective | watch | 10 | 0 | 2026-11-24 | ok |
+| Swisswatches Magazine | watch | 10 | 6 | 2026-11-25 | ok |
 | Le Temps | general | 11 | 4 | 2026-11-25 | ok |
-| Time and Watches | watch | 12 | 0 | 2026-11-24 | ok |
+| Time and Watches | watch | 13 | 0 | 2026-11-25 | ok |
 | GQ watches | general | 13 | 1 | 2026-11-25 | ok |
 | WatchPro USA | watch | 21 | 8 | 2026-11-24 | ok |
-| Deployant | watch | 22 | 1 | 2026-11-24 | ok |
+| Deployant | watch | 23 | 1 | 2026-11-25 | ok |
 | FH (Swiss watch federation) | watch | 24 | 0 | 2026-11-16 | ok |
 | Watchonista | watch | 25 | 0 | 2026-11-13 | ok |
-| Revolution | watch | 28 | 2 | 2026-11-25 | ok |
+| Revolution | watch | 29 | 2 | 2026-11-25 | ok |
 | Robb Report | watch | 31 | 9 | 2026-11-23 | ok |
-| WatchTime | watch | 35 | 0 | 2026-11-25 | ok |
-| Europa Star | watch | 36 | 4 | 2026-11-25 | ok |
+| Europa Star | watch | 35 | 4 | 2026-11-25 | ok |
 | Watches by SJX | watch | 37 | 6 | 2026-11-25 | ok |
+| WatchTime | watch | 38 | 1 | 2026-11-25 | ok |
 | Worn & Wound | watch | 39 | 0 | 2026-11-24 | ok |
-| WatchPro | watch | 39 | 17 | 2026-11-25 | ok |
-| Two Broke Watch Snobs | watch | 43 | 0 | 2026-11-24 | ok |
-| Watch Collecting Lifestyle | watch | 46 | 5 | 2026-11-24 | ok |
-| aBlogtoWatch | watch | 49 | 4 | 2026-11-25 | ok |
-| Hodinkee | watch | 50 | 5 | 2026-11-25 | ok |
-| Oracle Time | watch | 56 | 1 | 2026-11-25 | ok |
-| Time+Tide | watch | 59 | 1 | 2026-11-25 | ok |
-| Monochrome | watch | 66 | 5 | 2026-11-25 | ok |
-| Fratello | watch | 67 | 2 | 2026-11-25 | ok |
+| WatchPro | watch | 41 | 17 | 2026-11-25 | ok |
+| Two Broke Watch Snobs | watch | 44 | 0 | 2026-11-25 | ok |
+| Watch Collecting Lifestyle | watch | 47 | 6 | 2026-11-25 | ok |
+| aBlogtoWatch | watch | 50 | 4 | 2026-11-25 | ok |
+| Hodinkee | watch | 52 | 6 | 2026-11-25 | ok |
+| Oracle Time | watch | 57 | 2 | 2026-11-25 | ok |
+| Time+Tide | watch | 61 | 1 | 2026-11-25 | ok |
+| Monochrome | watch | 67 | 5 | 2026-11-25 | ok |
+| Fratello | watch | 69 | 2 | 2026-11-25 | ok |
 
 ## Outlets the news searches found that are not on the list
 
@@ -96,6 +96,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 | thehourmarkers.com | thehourmarkers | 5 | 3 | 5.8 | How Chanel Is Assembling Swiss Watchmaking’s Most Clever Portfolio |
 | artdaily.com | Artdaily | 3 | 3 | 8.7 | Christie's delivers its highest watch auction total ever achieving more than US$ 58 millio |
 | marketscreener.com | MarketScreener | 3 | 2 | 6.0 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
+| rapaport.com | Rapaport | 3 | 2 | 5.3 | Christie’s Achieves Its Highest-Ever Watch Auction Total of $58.7M |
 | witness.co.za | The Witness | 2 | 2 | 8.0 | WATCH - PMB Mall employees feared for their lives during jewellery store robbery |
 | ilmattino.it | Il Mattino | 2 | 2 | 6.5 | Schumacher's F.P. Journe watches achieve record sales at Christie's |
 | capital.de | Capital | 2 | 2 | 7.5 | Hublot founder misses the old elegance of his watch brand |
@@ -112,7 +113,6 @@ Stories that came in through the search phrases, grouped by website. High counts
 | bbc.com | BBC | 2 | 1 | 6.5 | Watch: Moment judge sentences Russell Brand in court |
 | aol.com | AOL | 2 | 1 | 4.5 | Tom Brady Caught Wearing a $720K Watch He Already Sold |
 | sohu.com | 搜狐 | 2 | 1 | 5.5 | Rolex is also going to open a cafe? "ROLEX CAFÉ" trademark application has been submitted |
-| rapaport.com | Rapaport | 2 | 1 | 5.0 | Christie’s Achieves Its Highest-Ever Watch Auction Total of $58.7M |
 | ft.com | Financial Times | 2 | 1 | 5.5 | Watchmakers dial into ideas from collector networks |
 | polizei.news | polizei | 2 | 1 | 4.0 | Watches and jewellery seized: police seek the rightful owners |
 | businesstoday.in | Business Today | 2 | 1 | 4.5 | India's luxury watch market is booming. Global brands want a bigger share |
