@@ -1,6 +1,6 @@
 # Source health
 
-Updated 24 Nov 2026 20:23 UTC. Counts are stories found in the last 30 days.
+Updated 25 Nov 2026 04:12 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -71,12 +71,12 @@ Newsletter list (newsletters.json) last sent: never UTC. If this is more than 3 
 | FH (Swiss watch federation) | watch | 24 | 0 | 2026-11-16 | ok |
 | Watchonista | watch | 25 | 0 | 2026-11-13 | ok |
 | Revolution | watch | 27 | 2 | 2026-11-24 | ok |
-| Europa Star | watch | 30 | 3 | 2026-11-22 | ok |
 | Robb Report | watch | 31 | 9 | 2026-11-23 | ok |
 | WatchTime | watch | 34 | 0 | 2026-11-24 | ok |
-| WatchPro | watch | 35 | 15 | 2026-11-24 | ok |
-| Watches by SJX | watch | 36 | 6 | 2026-11-24 | ok |
-| Worn & Wound | watch | 38 | 0 | 2026-11-24 | ok |
+| Europa Star | watch | 34 | 4 | 2026-11-24 | ok |
+| WatchPro | watch | 36 | 15 | 2026-11-24 | ok |
+| Watches by SJX | watch | 37 | 6 | 2026-11-25 | ok |
+| Worn & Wound | watch | 39 | 0 | 2026-11-24 | ok |
 | Two Broke Watch Snobs | watch | 43 | 0 | 2026-11-24 | ok |
 | Watch Collecting Lifestyle | watch | 46 | 5 | 2026-11-24 | ok |
 | aBlogtoWatch | watch | 48 | 4 | 2026-11-24 | ok |

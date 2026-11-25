@@ -1,4 +1,4 @@
-2026-11-24 20:23  9 new items from 82 of 83 sources. AI ranked 9 items and merged 3 duplicates.
+2026-11-25 04:12  12 new items from 82 of 83 sources. AI ranked 12 items and merged 0 duplicates.
 FAILED   Escapement Magazine  (https://www.escapementmagazine.com)
 ok    0  24 heures  (via news search)
 ok    0  A Collected Man
@@ -9,7 +9,6 @@ ok    0  Bilan  (via news search)
 ok    0  Business of Fashion  (via news search)
 ok    0  Coronet
 ok    0  Deployant
-ok    0  Europa Star  (read from its page)
 ok    0  FH (Swiss watch federation)  (read from its page)
 ok    0  Fratello
 ok    0  Futurism
@@ -26,6 +25,7 @@ ok    0  Le Temps
 ok    0  Luxury Daily
 ok    0  Luxury Tribune  (read from its page)
 ok    0  Miss Tweed  (read from its page)
+ok    0  Monochrome
 ok    0  New York Times (Business)
 ok    0  New York Times (Style)
 ok    0  New Yorker
@@ -45,6 +45,7 @@ ok    0  Search: Schweizer Uhren
 ok    0  Search: Swatch Group
 ok    0  Search: Swiss watch exports
 ok    0  Search: Uhrenindustrie
+ok    0  Search: Watches of Switzerland
 ok    0  Search: counterfeit watches
 ok    0  Search: horloger suisse
 ok    0  Search: horlogerie
@@ -63,22 +64,21 @@ ok    0  The Fourth Wheel
 ok    0  The Time Bum
 ok    0  Time and Watches
 ok    0  Time+Tide
+ok    0  Two Broke Watch Snobs
 ok    0  Unpolished
 ok    0  WWD
 ok    0  Wall Street Journal  (via news search)
 ok    0  Wallpaper
 ok    0  Watch Collecting Lifestyle
-ok    0  WatchPro  (via news search)
 ok    0  WatchPro USA  (via news search)
 ok    0  WatchTime
-ok    0  Watches by SJX
 ok    0  Watchonista
 ok    0  Wired
 ok    0  World Trademark Review
 ok    0  WristReview
-ok    1  Monochrome
-ok    1  Search: Watches of Switzerland
+ok    0  aBlogtoWatch
+ok    1  WatchPro  (via news search)
+ok    1  Watches by SJX
 ok    1  Worn & Wound
-ok    1  aBlogtoWatch
-ok    2  Two Broke Watch Snobs
-ok    3  Search: Rolex
+ok    4  Europa Star  (read from its page)
+ok    5  Search: Rolex
