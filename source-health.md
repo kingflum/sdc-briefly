@@ -1,6 +1,6 @@
 # Source health
 
-Updated 25 Nov 2026 11:10 UTC. Counts are stories found in the last 30 days.
+Updated 25 Nov 2026 11:14 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -31,10 +31,10 @@ Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is m
 | Quill & Pad | watch | 1 | 0 | 2026-11-06 | ok |
 | Hairspring Journal | watch | 1 | 0 | 2026-11-24 | ok |
 | The Fourth Wheel | watch | 1 | 0 | 2026-11-20 | ok |
-| Split Seconds (Jack Forster) | watch | 1 | 0 | 2026-11-22 | sent in via newsletters.json |
 | Sfwatchlover | watch | 1 | 0 | 2026-11-23 | sent in via newsletters.json |
 | Miss Tweed | general | 1 | 1 | 2026-11-16 | ok |
 | The Fashion Law | general | 1 | 1 | 2026-11-06 | ok |
+| Split Seconds (Jack Forster) | watch | 1 | 1 | 2026-11-22 | sent in via newsletters.json |
 | Free Sprung | watch | 1 | 1 | 2026-11-22 | sent in via newsletters.json |
 | The Grumpy Watch Collector | watch | 1 | 1 | 2026-11-24 | sent in via newsletters.json |
 | The Watchmaker's Daughter | watch | 1 | 1 | 2026-11-24 | sent in via newsletters.json |
