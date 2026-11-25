@@ -1,6 +1,6 @@
 # Source health
 
-Updated 25 Nov 2026 11:14 UTC. Counts are stories found in the last 30 days.
+Updated 25 Nov 2026 11:25 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -81,7 +81,7 @@ Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is m
 | Watch Collecting Lifestyle | watch | 46 | 5 | 2026-11-24 | ok |
 | aBlogtoWatch | watch | 49 | 4 | 2026-11-25 | ok |
 | Hodinkee | watch | 50 | 5 | 2026-11-25 | ok |
-| Oracle Time | watch | 55 | 1 | 2026-11-25 | ok |
+| Oracle Time | watch | 56 | 1 | 2026-11-25 | ok |
 | Time+Tide | watch | 59 | 1 | 2026-11-25 | ok |
 | Monochrome | watch | 66 | 5 | 2026-11-25 | ok |
 | Fratello | watch | 67 | 2 | 2026-11-25 | ok |
