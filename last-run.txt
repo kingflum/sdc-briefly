@@ -1,4 +1,4 @@
-2026-11-25 11:25  1 new items from 82 of 83 sources. 0 new newsletter posts (list sent 2026-11-25T11:08). AI ranked 1 items and merged 0 duplicates.
+2026-11-25 11:46  0 new items from 82 of 83 sources. 0 new newsletter posts (list sent 2026-11-25T11:08). AI ranked 0 items and merged 4 duplicates.
 FAILED   Escapement Magazine  (https://www.escapementmagazine.com)
 ok    0  24 heures  (via news search)
 ok    0  A Collected Man
@@ -30,6 +30,7 @@ ok    0  Monochrome
 ok    0  New York Times (Business)
 ok    0  New York Times (Style)
 ok    0  New Yorker
+ok    0  Oracle Time
 ok    0  Professional Watches
 ok    0  Quill & Pad
 ok    0  RTS Info  (read from its page)
@@ -81,4 +82,3 @@ ok    0  World Trademark Review
 ok    0  Worn & Wound
 ok    0  WristReview
 ok    0  aBlogtoWatch
-ok    1  Oracle Time

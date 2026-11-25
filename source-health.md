@@ -1,6 +1,6 @@
 # Source health
 
-Updated 25 Nov 2026 11:25 UTC. Counts are stories found in the last 30 days.
+Updated 25 Nov 2026 11:46 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -37,13 +37,13 @@ Newsletter list (newsletters.json) last sent: 2026-11-25T11:08 UTC. If this is m
 | Split Seconds (Jack Forster) | watch | 1 | 1 | 2026-11-22 | sent in via newsletters.json |
 | Free Sprung | watch | 1 | 1 | 2026-11-22 | sent in via newsletters.json |
 | The Grumpy Watch Collector | watch | 1 | 1 | 2026-11-24 | sent in via newsletters.json |
-| The Watchmaker's Daughter | watch | 1 | 1 | 2026-11-24 | sent in via newsletters.json |
 | Wall Street Journal | general | 1 | 1 | 2026-11-18 | ok |
 | Luxury Tribune | general | 1 | 1 | 2026-10-27 | ok |
 | Professional Watches | watch | 2 | 0 | 2026-11-19 | ok |
 | The Time Bum | watch | 2 | 0 | 2026-11-22 | ok |
 | Business of Fashion | general | 2 | 1 | 2026-11-17 | ok |
 | Jing Daily | general | 2 | 2 | 2026-11-19 | ok |
+| The Watchmaker's Daughter | watch | 2 | 2 | 2026-11-24 | sent in via newsletters.json |
 | Escapement Magazine | watch | 3 | 0 | 2026-11-12 | FAILED |
 | Hairspring Finds | watch | 3 | 0 | 2026-11-21 | ok |
 | Swissinfo (French) | general | 3 | 0 | 2026-11-14 | ok |
