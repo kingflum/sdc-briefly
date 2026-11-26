@@ -1,6 +1,6 @@
 # Source health
 
-Updated 26 Nov 2026 04:07 UTC. Counts are stories found in the last 30 days.
+Updated 26 Nov 2026 16:20 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: 2026-11-26T04:00 UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -28,6 +28,7 @@ Newsletter list (newsletters.json) last sent: 2026-11-26T04:00 UTC. If this is m
 | New York Times (Business) | general | 0 | 0 | never | ok |
 | New York Times (Style) | general | 0 | 0 | never | ok |
 | New Yorker | general | 0 | 0 | never | ok |
+| Luxury Tribune | general | 0 | 0 | 2026-10-27 | ok |
 | Hairspring Journal | watch | 1 | 0 | 2026-11-24 | ok |
 | The Fourth Wheel | watch | 1 | 0 | 2026-11-20 | ok |
 | Sfwatchlover | watch | 1 | 0 | 2026-11-23 | sent in via newsletters.json |
@@ -36,8 +37,7 @@ Newsletter list (newsletters.json) last sent: 2026-11-26T04:00 UTC. If this is m
 | Split Seconds (Jack Forster) | watch | 1 | 1 | 2026-11-22 | sent in via newsletters.json |
 | Free Sprung | watch | 1 | 1 | 2026-11-22 | sent in via newsletters.json |
 | The Grumpy Watch Collector | watch | 1 | 1 | 2026-11-24 | sent in via newsletters.json |
-| Wall Street Journal | general | 1 | 1 | 2026-11-18 | FAILED |
-| Luxury Tribune | general | 1 | 1 | 2026-10-27 | ok |
+| Wall Street Journal | general | 1 | 1 | 2026-11-18 | ok |
 | Quill & Pad | watch | 2 | 0 | 2026-11-25 | ok |
 | Professional Watches | watch | 2 | 0 | 2026-11-19 | ok |
 | The Time Bum | watch | 2 | 0 | 2026-11-22 | ok |
@@ -63,28 +63,28 @@ Newsletter list (newsletters.json) last sent: 2026-11-26T04:00 UTC. If this is m
 | Unpolished | watch | 9 | 4 | 2026-11-24 | ok |
 | A Timely Perspective | watch | 10 | 0 | 2026-11-24 | ok |
 | Le Temps | general | 11 | 4 | 2026-11-25 | ok |
-| Swisswatches Magazine | watch | 12 | 7 | 2026-11-25 | ok |
-| Time and Watches | watch | 13 | 0 | 2026-11-25 | ok |
-| GQ watches | general | 13 | 1 | 2026-11-25 | ok |
-| WatchPro USA | watch | 21 | 8 | 2026-11-24 | FAILED |
-| Deployant | watch | 23 | 1 | 2026-11-25 | ok |
+| Swisswatches Magazine | watch | 13 | 7 | 2026-11-26 | ok |
+| Time and Watches | watch | 14 | 0 | 2026-11-26 | ok |
+| GQ watches | general | 14 | 1 | 2026-11-26 | ok |
+| WatchPro USA | watch | 21 | 8 | 2026-11-24 | ok |
 | FH (Swiss watch federation) | watch | 24 | 0 | 2026-11-16 | ok |
+| Deployant | watch | 24 | 2 | 2026-11-26 | ok |
 | Watchonista | watch | 25 | 0 | 2026-11-13 | ok |
-| Revolution | watch | 29 | 2 | 2026-11-25 | ok |
+| Revolution | watch | 30 | 2 | 2026-11-26 | ok |
 | Robb Report | watch | 32 | 9 | 2026-11-25 | ok |
-| Europa Star | watch | 35 | 4 | 2026-11-25 | ok |
-| Watches by SJX | watch | 37 | 6 | 2026-11-25 | ok |
-| WatchTime | watch | 38 | 1 | 2026-11-25 | ok |
-| Worn & Wound | watch | 41 | 0 | 2026-11-25 | ok |
-| WatchPro | watch | 43 | 19 | 2026-11-25 | ok |
-| Two Broke Watch Snobs | watch | 44 | 0 | 2026-11-25 | ok |
-| Watch Collecting Lifestyle | watch | 47 | 6 | 2026-11-25 | ok |
-| aBlogtoWatch | watch | 51 | 4 | 2026-11-25 | ok |
-| Hodinkee | watch | 52 | 6 | 2026-11-25 | ok |
-| Oracle Time | watch | 57 | 2 | 2026-11-25 | ok |
-| Time+Tide | watch | 62 | 1 | 2026-11-25 | ok |
-| Monochrome | watch | 68 | 5 | 2026-11-25 | ok |
-| Fratello | watch | 69 | 2 | 2026-11-25 | ok |
+| Europa Star | watch | 37 | 5 | 2026-11-26 | ok |
+| Watches by SJX | watch | 38 | 6 | 2026-11-26 | ok |
+| WatchTime | watch | 40 | 1 | 2026-11-26 | ok |
+| Worn & Wound | watch | 42 | 0 | 2026-11-26 | ok |
+| Two Broke Watch Snobs | watch | 46 | 0 | 2026-11-26 | ok |
+| WatchPro | watch | 47 | 20 | 2026-11-26 | ok |
+| Watch Collecting Lifestyle | watch | 48 | 6 | 2026-11-26 | ok |
+| aBlogtoWatch | watch | 53 | 4 | 2026-11-26 | ok |
+| Hodinkee | watch | 53 | 6 | 2026-11-26 | ok |
+| Oracle Time | watch | 61 | 3 | 2026-11-26 | ok |
+| Time+Tide | watch | 63 | 1 | 2026-11-26 | ok |
+| Fratello | watch | 72 | 2 | 2026-11-26 | ok |
+| Monochrome | watch | 72 | 6 | 2026-11-26 | ok |
 
 ## Outlets the news searches found that are not on the list
 
@@ -92,7 +92,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 
 | Website | Outlet name | Stories (30 days) | Scored 6+ | Average score | Example headline |
 |---|---|---|---|---|---|
-| note.com | note | 15 | 3 | 3.1 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
+| note.com | note | 17 | 3 | 3.2 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
 | thehourmarkers.com | thehourmarkers | 5 | 3 | 5.8 | How Chanel Is Assembling Swiss Watchmaking’s Most Clever Portfolio |
 | artdaily.com | Artdaily | 4 | 3 | 7.8 | Christie's delivers its highest watch auction total ever achieving more than US$ 58 millio |
 | marketscreener.com | MarketScreener | 4 | 2 | 5.5 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
@@ -108,6 +108,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 | nytimes.com | The New York Times | 3 | 1 | 4.7 | Is There No End to the Allure of Independent Watchmaking? |
 | vogue.com | Vogue | 3 | 1 | 5.0 | Why Luxury Watch Brands Are Still Struggling Online |
 | estrepublicain.fr | L'Est Républicain | 2 | 1 | 6.5 | Accueil Economie Économie The axe has fallen, 91 jobs cut at watchmaker Zenith: "It's one  |
+| luxus-plus.com | Luxus Plus | 2 | 1 | 6.5 | The Watch Keepers: why is Audemars Piguet launching its own pre-owned watch platform? |
 | e.vnexpress.net | VnExpress International | 2 | 1 | 3.5 | Two arrested over theft of Chinese tourist's $600,000 Patek Philippe watch in Thailand |
 | bbc.com | BBC | 2 | 1 | 6.5 | Watch: Moment judge sentences Russell Brand in court |
 | aol.com | AOL | 2 | 1 | 4.5 | Tom Brady Caught Wearing a $720K Watch He Already Sold |
@@ -116,6 +117,7 @@ Stories that came in through the search phrases, grouped by website. High counts
 | ft.com | Financial Times | 2 | 1 | 5.5 | Watchmakers dial into ideas from collector networks |
 | polizei.news | polizei | 2 | 1 | 4.0 | Watches and jewellery seized: police seek the rightful owners |
 | businesstoday.in | Business Today | 2 | 1 | 4.5 | India's luxury watch market is booming. Global brands want a bigger share |
+| watchtime.net | Watchtime.net | 2 | 1 | 5.0 | After Hublot, now solo: Takashi Murakami brings his own watches – with a skull |
 | tf1info.fr | TF1 INFO | 1 | 1 | 7.0 | “We need 2 million euros”: the Paris Observatory calls for donations to replace its “end o |
 | tf1.fr | TF1 | 1 | 1 | 8.0 | Quand l'horlogerie relocalise |
 | bilanz.ch | Bilanz | 1 | 1 | 9.0 | Patek boss snaps up luxury property for 38 million |
@@ -124,11 +126,9 @@ Stories that came in through the search phrases, grouped by website. High counts
 | salonprivemag.com | Salon Privé Magazine | 1 | 1 | 8.0 | Swiss Watch Exports Rise for a Fourth Month as Shipments to Britain Slip Before Christmas |
 | billionaires.africa | billionaires | 1 | 1 | 9.0 | South African billionaire Johann Rupert's Richemont eyes De Beers as Botswana doubles stak |
 | businessmirror.com.ph | BusinessMirror | 1 | 1 | 7.0 | China crackdown pushes wealthy to gold, lifting HK jewelry sales |
-| luxus-plus.com | Luxus Plus | 1 | 1 | 8.0 | The Watch Keepers: why is Audemars Piguet launching its own pre-owned watch platform? |
 | khaleejtimes.com | Khaleej Times | 1 | 1 | 7.0 | Dubai woman fined, ordered to repay Dh700,000 after selling fake Patek Philippe watch |
 | markets.businessinsider.com | Markets Insider | 1 | 1 | 7.0 | First Watch Restaurant Group, Inc. to Host Inaugural Investor Day on Thursday, November 12 |
 | telanganatoday.com | Telangana Today | 1 | 1 | 8.0 | Man held for selling counterfeit iPhones, Apple watches to customers |
 | siasat.com | The Siasat Daily | 1 | 1 | 8.0 | Hyderabad: Man held for selling fake iPhones, Apple Watches |
 | thehindu.com | The Hindu | 1 | 1 | 8.0 | Man held for selling counterfeit iPhones, Apple Watches |
 | cnycentral.com | CNY Central | 1 | 1 | 8.0 | Watch the video: Suspects steal electric scooters in Village of Munnsville |
-| satrucker.co.za | SA Trucker | 1 | 1 | 8.0 | Watch: Five CIT Suspects Killed in Gqeberha Shootout Caught on Camera |
