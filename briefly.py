@@ -839,9 +839,14 @@ def publish(out_dir=None):
         older = '<a href="/day/%s.html">%s →</a>' % (days[k + 1], _day_label(days[k + 1])) if k + 1 < len(days) else ""
         best = sorted(by_day[d], key=lambda x: -x["n"])
         desc = "Watch industry news for %s: %s" % (_day_label(d), "; ".join(i["t"] for i in best[:3]))
+        top = [i["t"].rstrip(" .") for i in best[:3]]
+        full = dt.date.fromisoformat(d).strftime("%-d %B %Y")
+        intro = "Top watch industry stories on %s: %s." % (
+            full, top[0] if len(top) == 1 else "; ".join(top[:-1]) + "; and " + top[-1])
         p = (shell.replace("__TITLE__", _esc("Watch industry news, %s · SDC Briefly" % _day_label(d)))
              .replace("__DESC__", _esc(desc[:300])).replace("__URL__", "%s/day/%s.html" % (SITE_URL, d))
              .replace("__HEADING__", _esc(_day_label(d)))
+             .replace("__INTRO__", _esc(intro))
              .replace("__LIST__", "\n".join(_item_html(i) for i in best))
              .replace("__NAV__", '<div class="nav"><span>%s</span><span>%s</span></div>' % (newer, older))
              .replace("__ANALYTICS__", _analytics()))
@@ -850,7 +855,8 @@ def publish(out_dir=None):
     links = "\n".join('<div class="it"><div><a href="/day/%s.html">%s</a><div class="meta">%d stories · top: %s</div></div></div>'
                       % (d, _day_label(d), len(by_day[d]), _esc(max(by_day[d], key=lambda x: x["n"])["t"]))
                       for d in days)
-    p = (shell.replace("__TITLE__", "Watch industry news archive · SDC Briefly")
+    p = (shell.replace("__INTRO__", "Every day's watch industry news, with the top stories for each day.")
+         .replace("__TITLE__", "Watch industry news archive · SDC Briefly")
          .replace("__DESC__", "Every day's watch industry news collected by SDC Briefly, day by day.")
          .replace("__URL__", SITE_URL + "/archive.html").replace("__HEADING__", "Archive, day by day")
          .replace("__LIST__", links).replace("__NAV__", "").replace("__ANALYTICS__", _analytics()))
