@@ -1,6 +1,6 @@
 # Source health
 
-Updated 27 Nov 2026 16:21 UTC. Counts are stories found in the last 30 days.
+Updated 27 Nov 2026 19:45 UTC. Counts are stories found in the last 30 days.
 
 Newsletter list (newsletters.json) last sent: 2026-11-27T04:00 UTC. If this is more than 3 days old, Substack posts have stopped arriving.
 
@@ -47,13 +47,13 @@ Newsletter list (newsletters.json) last sent: 2026-11-27T04:00 UTC. If this is m
 | Swissinfo (French) | general | 3 | 0 | 2026-11-14 | ok |
 | Business of Fashion | general | 3 | 1 | 2026-11-24 | ok |
 | Jing Daily | general | 3 | 2 | 2026-11-23 | ok |
-| ScrewDownCrown | watch | 4 | 1 | 2026-11-25 | ok |
 | JCK | general | 4 | 2 | 2026-11-23 | ok |
 | RTS Info | general | 4 | 2 | 2026-11-21 | ok |
 | Bilan | general | 4 | 2 | 2026-11-18 | ok |
 | WWD | general | 4 | 3 | 2026-11-17 | ok |
 | Luxury Daily | general | 5 | 0 | 2026-11-24 | ok |
 | Agefi | general | 5 | 0 | 2026-11-18 | ok |
+| ScrewDownCrown | watch | 5 | 1 | 2026-11-27 | ok |
 | 24 heures | general | 5 | 3 | 2026-11-26 | ok |
 | Coronet | watch | 5 | 4 | 2026-11-27 | ok |
 | WristReview | watch | 6 | 0 | 2026-11-25 | ok |
@@ -61,7 +61,7 @@ Newsletter list (newsletters.json) last sent: 2026-11-27T04:00 UTC. If this is m
 | Scottish Watches | watch | 7 | 0 | 2026-11-26 | ok |
 | Wallpaper | general | 7 | 0 | 2026-11-25 | ok |
 | Unpolished | watch | 9 | 4 | 2026-11-24 | ok |
-| A Timely Perspective | watch | 11 | 0 | 2026-11-27 | ok |
+| A Timely Perspective | watch | 10 | 0 | 2026-11-27 | ok |
 | Le Temps | general | 13 | 5 | 2026-11-27 | ok |
 | Swisswatches Magazine | watch | 13 | 7 | 2026-11-26 | ok |
 | Time and Watches | watch | 15 | 0 | 2026-11-27 | ok |
@@ -80,11 +80,11 @@ Newsletter list (newsletters.json) last sent: 2026-11-27T04:00 UTC. If this is m
 | Watch Collecting Lifestyle | watch | 49 | 6 | 2026-11-27 | ok |
 | Hodinkee | watch | 54 | 6 | 2026-11-27 | ok |
 | WatchPro | watch | 54 | 21 | 2026-11-27 | ok |
-| aBlogtoWatch | watch | 56 | 4 | 2026-11-27 | ok |
+| aBlogtoWatch | watch | 57 | 4 | 2026-11-27 | ok |
 | Oracle Time | watch | 64 | 4 | 2026-11-27 | ok |
 | Time+Tide | watch | 66 | 2 | 2026-11-27 | ok |
 | Fratello | watch | 75 | 2 | 2026-11-27 | ok |
-| Monochrome | watch | 76 | 6 | 2026-11-27 | ok |
+| Monochrome | watch | 77 | 6 | 2026-11-27 | ok |
 
 ## Outlets the news searches found that are not on the list
 
@@ -93,9 +93,9 @@ Stories that came in through the search phrases, grouped by website. High counts
 | Website | Outlet name | Stories (30 days) | Scored 6+ | Average score | Example headline |
 |---|---|---|---|---|---|
 | note.com | note | 18 | 3 | 3.1 | Speculative Fever Revealed by the Resale of the AP x Swatch "Royal Pop" |
+| marketscreener.com | MarketScreener | 5 | 3 | 6.0 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
 | thehourmarkers.com | thehourmarkers | 5 | 3 | 5.8 | How Chanel Is Assembling Swiss Watchmaking’s Most Clever Portfolio |
 | artdaily.com | Artdaily | 4 | 3 | 7.8 | Christie's delivers its highest watch auction total ever achieving more than US$ 58 millio |
-| marketscreener.com | MarketScreener | 4 | 2 | 5.5 | Richemont stresses importance of natural gem stones, doesn't comment on De Beers links |
 | witness.co.za | The Witness | 2 | 2 | 8.0 | WATCH - PMB Mall employees feared for their lives during jewellery store robbery |
 | ilmattino.it | Il Mattino | 2 | 2 | 6.5 | Schumacher's F.P. Journe watches achieve record sales at Christie's |
 | capital.de | Capital | 2 | 2 | 7.5 | Hublot founder misses the old elegance of his watch brand |
