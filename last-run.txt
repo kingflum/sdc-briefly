@@ -1,20 +1,14 @@
-2026-11-27 04:10  21 new items from 79 of 83 sources. 0 new newsletter posts (list sent 2026-11-27T04:00). AI ranked 21 items and merged 3 duplicates.
+2026-11-27 16:21  54 new items from 79 of 83 sources. 0 new newsletter posts (list sent 2026-11-27T04:00). AI ranked 54 items and merged 0 duplicates.
 FAILED   A Collected Man  (https://www.acollectedman.com/blogs/journal.atom)
 FAILED   Escapement Magazine  (https://www.escapementmagazine.com)
 FAILED   Hairspring Finds  (https://hairspring.com/blogs/finds.atom)
 FAILED   Hairspring Journal  (https://hairspring.com/blogs/journal.atom)
-ok    0  24 heures  (via news search)
-ok    0  A Timely Perspective
 ok    0  Agefi  (via news search)
 ok    0  Arcinfo  (read from its page)
 ok    0  Bilan  (via news search)
-ok    0  Business of Fashion  (via news search)
-ok    0  Coronet
+ok    0  Europa Star  (read from its page)
 ok    0  FH (Swiss watch federation)  (read from its page)
-ok    0  Fratello
 ok    0  Futurism
-ok    0  GQ watches
-ok    0  Hodinkee
 ok    0  Horopedia
 ok    0  IPKat
 ok    0  Independ Horology
@@ -26,24 +20,17 @@ ok    0  Miss Tweed  (read from its page)
 ok    0  New York Times (Business)
 ok    0  New York Times (Style)
 ok    0  New Yorker
-ok    0  Oracle Time
 ok    0  Professional Watches
 ok    0  Quill & Pad
 ok    0  RTS Info  (read from its page)
-ok    0  Revolution  (via news search)
 ok    0  Robb Report
 ok    0  Scottish Watches
 ok    0  ScrewDownCrown
-ok    0  Search: Audemars Piguet
-ok    0  Search: Bucherer
 ok    0  Search: Richemont watches
 ok    0  Search: Swatch Group
-ok    0  Search: Uhrenindustrie
-ok    0  Search: counterfeit watches
+ok    0  Search: Swiss watch exports
+ok    0  Search: Watches of Switzerland
 ok    0  Search: horloger suisse
-ok    0  Search: horlogerie
-ok    0  Search: independent watchmaker
-ok    0  Search: montres suisses
 ok    0  Search: watch auction record
 ok    0  Search: watch brand court
 ok    0  Search: watch trademark
@@ -52,33 +39,46 @@ ok    0  Swissinfo (English)  (read from its page)
 ok    0  Swissinfo (French)  (read from its page)
 ok    0  Swisswatches Magazine
 ok    0  The Fashion Law  (read from its page)
-ok    0  The Fourth Wheel
 ok    0  The Time Bum
-ok    0  Time and Watches
-ok    0  Time+Tide  (via news search)
+ok    0  Two Broke Watch Snobs
 ok    0  Unpolished
 ok    0  WWD
 ok    0  Wall Street Journal  (via news search)
 ok    0  Wallpaper
-ok    0  Watch Collecting Lifestyle
-ok    0  WatchPro  (via news search)
 ok    0  WatchPro USA  (via news search)
-ok    0  WatchTime
 ok    0  Watchonista
 ok    0  Wired
 ok    0  World Trademark Review
 ok    0  WristReview
-ok    1  Deployant  (via news search)
+ok    1  24 heures  (via news search)
+ok    1  A Timely Perspective
+ok    1  Business of Fashion  (via news search)
+ok    1  Coronet
+ok    1  Deployant
+ok    1  GQ watches
+ok    1  Hodinkee
 ok    1  Le Temps
-ok    1  Monochrome
-ok    1  Search: Patek Philippe
-ok    1  Search: Schweizer Uhren
-ok    1  Search: Watches of Switzerland
+ok    1  Search: Bucherer
+ok    1  Search: Uhrenindustrie
+ok    1  Search: counterfeit watches
+ok    1  Search: independent watchmaker
+ok    1  Search: montres suisses
 ok    1  Search: watch theft
+ok    1  The Fourth Wheel
+ok    1  Time and Watches
+ok    1  Watch Collecting Lifestyle
 ok    1  Watches by SJX
-ok    1  aBlogtoWatch
-ok    2  Europa Star  (read from its page)
-ok    2  Search: Swiss watch exports
-ok    2  Two Broke Watch Snobs
-ok    2  Worn & Wound
-ok    4  Search: Rolex
+ok    1  Worn & Wound
+ok    2  Revolution
+ok    2  Search: Audemars Piguet
+ok    2  Search: Patek Philippe
+ok    2  Search: Rolex
+ok    2  Search: Schweizer Uhren
+ok    2  Search: horlogerie
+ok    2  WatchTime
+ok    2  aBlogtoWatch
+ok    3  Fratello
+ok    3  Monochrome
+ok    3  Oracle Time
+ok    3  Time+Tide
+ok    7  WatchPro  (via news search)
